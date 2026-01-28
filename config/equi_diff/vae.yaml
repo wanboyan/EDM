@@ -1,0 +1,73 @@
+
+
+model:
+  model_name: sim3sdf_vanilla
+
+  sdf2occ_factor: -1.0
+
+  encoder_64: false
+
+  w_nss: 0.5
+  w_uni: 0.5
+  loss_th: 0.1
+  loss_near_lambda: 1.0
+  loss_far_lambda: 0.5
+
+  w_s: 0.001
+  w_t: 0.2
+  w_recon: 1.0
+
+  decoder_type: inner
+  encoder_type: vecdgcnn_atten
+
+  center_aug_std: 0.05
+
+  encoder:
+    c_dim: 256
+    num_layers: 7
+    feat_dim: [32, 32, 64, 64, 128, 256, 512]
+    down_sample_layers: [2, 4, 5]
+    down_sample_factor: [2, 4, 4]
+    atten_start_layer: 2 # ! no atten
+    atten_multi_head_c: 16
+    use_res_global_conv: True
+    res_global_start_layer: 2
+    num_knn: 16
+    scale_factor: 64000.0
+    leak_neg_slope: 0.2
+    use_dg: True
+    center_pred: True
+
+  decoder:
+    input_dim: 513
+    hidden_size: 256
+    leaky: False
+    legacy: False
+
+
+
+training:
+  grad_clip: 4.0
+  loss_clip: 4.0
+  optim:
+    all:
+#      lr: 0.001
+      lr: 0.0001
+      decay_schedule: [50000, 60000, 70000]
+      decay_factor: [0.3, 0.3, 0.3]
+      lr_min: 0.00000001
+
+  total_iter: 80000
+  batch_size: 32
+
+generation:
+  occ_if_meshing_cfg:
+    threshold: 0.5
+    batch_pts: 8000
+    simplify_nfaces: 5000
+    resolution_0: 64
+    upsampling_steps: 2
+    use_sampling: false
+    refinement_step: 0
+
+

@@ -1,0 +1,1261 @@
+2024-02-02 20:54:30,541 : logtostderr:False
+2024-02-02 20:54:30,541 : alsologtostderr:False
+2024-02-02 20:54:30,541 : log_dir:
+2024-02-02 20:54:30,541 : v:0
+2024-02-02 20:54:30,542 : verbosity:0
+2024-02-02 20:54:30,542 : logger_levels:{}
+2024-02-02 20:54:30,542 : stderrthreshold:fatal
+2024-02-02 20:54:30,542 : showprefixforinfo:True
+2024-02-02 20:54:30,542 : run_with_pdb:False
+2024-02-02 20:54:30,542 : pdb_post_mortem:False
+2024-02-02 20:54:30,542 : pdb:False
+2024-02-02 20:54:30,542 : run_with_profiling:False
+2024-02-02 20:54:30,543 : profile_file:None
+2024-02-02 20:54:30,543 : use_cprofile_for_profiling:True
+2024-02-02 20:54:30,543 : only_check_args:False
+2024-02-02 20:54:30,543 : s_topk:50
+2024-02-02 20:54:30,543 : lr_weight_model:1.0
+2024-02-02 20:54:30,543 : stage:1.0
+2024-02-02 20:54:30,543 : use_stable_train:0
+2024-02-02 20:54:30,543 : resume_gt_dir:/data_nvme/trained_models/pips_s1_512_v5
+2024-02-02 20:54:30,543 : resume_gt_model_name:model_69.pth
+2024-02-02 20:54:30,544 : bin_size:100
+2024-02-02 20:54:30,544 : query_num:1000
+2024-02-02 20:54:30,544 : pad_num:100
+2024-02-02 20:54:30,544 : query_radius:0.6
+2024-02-02 20:54:30,544 : pad_radius:0.6
+2024-02-02 20:54:30,571 : fake_grid_num:500
+2024-02-02 20:54:30,571 : new_query_num:500
+2024-02-02 20:54:30,571 : use_mean_init:0
+2024-02-02 20:54:30,571 : fake_radius:0.6
+2024-02-02 20:54:30,571 : refine_lr:0.0011
+2024-02-02 20:54:30,571 : refine_step:50
+2024-02-02 20:54:30,571 : use_pso:0
+2024-02-02 20:54:30,571 : use_interpo:1
+2024-02-02 20:54:30,571 : use_refine:1
+2024-02-02 20:54:30,572 : use_base:1
+2024-02-02 20:54:30,572 : use_distance:1
+2024-02-02 20:54:30,572 : use_adaptive_distance:0
+2024-02-02 20:54:30,572 : use_prob:1
+2024-02-02 20:54:30,572 : eval_use_deform:0
+2024-02-02 20:54:30,572 : eval_optimizer:adam
+2024-02-02 20:54:30,572 : use_sampling_test:0
+2024-02-02 20:54:30,572 : test_topk:100
+2024-02-02 20:54:30,572 : pic_save_dir:sampling_eval
+2024-02-02 20:54:30,573 : pic_save:1
+2024-02-02 20:54:30,573 : cur_eval_index:-1
+2024-02-02 20:54:30,573 : use_sampling_train:0
+2024-02-02 20:54:30,573 : scale_ratio:2.0
+2024-02-02 20:54:30,573 : mask_ratio:0.05
+2024-02-02 20:54:30,573 : aug_deform:0
+2024-02-02 20:54:30,573 : aug_bg:1
+2024-02-02 20:54:30,573 : debug:0
+2024-02-02 20:54:30,573 : ratio:1.0
+2024-02-02 20:54:30,573 : ratio_source:Real
+2024-02-02 20:54:30,574 : two_back:0
+2024-02-02 20:54:30,574 : use_fsnet:0
+2024-02-02 20:54:30,574 : use_deform_emb:1
+2024-02-02 20:54:30,574 : use_deform:0
+2024-02-02 20:54:30,574 : cur_cat_model_num:0
+2024-02-02 20:54:30,574 : keypoint_num:36
+2024-02-02 20:54:30,574 : use_refine_loss:0
+2024-02-02 20:54:30,574 : use_nocs_loss:1
+2024-02-02 20:54:30,574 : align_origin:0
+2024-02-02 20:54:30,575 : regular_tps:0
+2024-02-02 20:54:30,575 : feat_for_ts:0
+2024-02-02 20:54:30,575 : force_sym:0
+2024-02-02 20:54:30,575 : min_loss:0
+2024-02-02 20:54:30,575 : scale_constant:64000.0
+2024-02-02 20:54:30,575 : inter_nocs_lr:1.0
+2024-02-02 20:54:30,575 : inter_R_lr:1.0
+2024-02-02 20:54:30,575 : inter_t_lr:1.0
+2024-02-02 20:54:30,575 : use_consistency:0
+2024-02-02 20:54:30,575 : use_inter:0
+2024-02-02 20:54:30,576 : cut_backbone:0
+2024-02-02 20:54:30,576 : consistency_w:1.0
+2024-02-02 20:54:30,576 : use_global:1
+2024-02-02 20:54:30,576 : use_dir_rpe:0
+2024-02-02 20:54:30,576 : lr_embedding:1000.0
+2024-02-02 20:54:30,576 : lr_decoder:1.0
+2024-02-02 20:54:30,576 : lr_backbone:1.0
+2024-02-02 20:54:30,576 : lr_rot:1.0
+2024-02-02 20:54:30,576 : lr_interpo:1.0
+2024-02-02 20:54:30,577 : lr_ts:1.0
+2024-02-02 20:54:30,577 : deform_w:10.0
+2024-02-02 20:54:30,577 : kld_w:0.0
+2024-02-02 20:54:30,577 : cd_w:0.0
+2024-02-02 20:54:30,577 : grad_w:1.0
+2024-02-02 20:54:30,577 : interpo_w:10.0
+2024-02-02 20:54:30,577 : tran_w:8.0
+2024-02-02 20:54:30,577 : size_w:8.0
+2024-02-02 20:54:30,577 : recon_w:8.0
+2024-02-02 20:54:30,577 : rot_1_w:1.0
+2024-02-02 20:54:30,578 : rot_2_w:1.0
+2024-02-02 20:54:30,578 : rot_regular:0.5
+2024-02-02 20:54:30,578 : r_con_w:1.0
+2024-02-02 20:54:30,578 : feat_c_R:1280
+2024-02-02 20:54:30,578 : R_c:3
+2024-02-02 20:54:30,578 : feat_c_ts:1283
+2024-02-02 20:54:30,578 : Ts_c:6
+2024-02-02 20:54:30,578 : feat_face:768
+2024-02-02 20:54:30,578 : face_recon_c:30
+2024-02-02 20:54:30,579 : gcn_sup_num:7
+2024-02-02 20:54:30,579 : gcn_n_num:10
+2024-02-02 20:54:30,579 : DZI_PAD_SCALE:1.5
+2024-02-02 20:54:30,579 : DZI_TYPE:uniform
+2024-02-02 20:54:30,579 : DZI_SCALE_RATIO:0.25
+2024-02-02 20:54:30,579 : DZI_SHIFT_RATIO:0.25
+2024-02-02 20:54:30,579 : img_size:256
+2024-02-02 20:54:30,579 : roi_mask_r:3
+2024-02-02 20:54:30,579 : roi_mask_pro:0.5
+2024-02-02 20:54:30,580 : aug_pc_pro:1.0
+2024-02-02 20:54:30,580 : aug_pc_r:0.001
+2024-02-02 20:54:30,580 : aug_rt_pro:1.0
+2024-02-02 20:54:30,580 : aug_bb_pro:0.3
+2024-02-02 20:54:30,580 : aug_bc_pro:0.3
+2024-02-02 20:54:30,580 : fsnet_loss_type:l1
+2024-02-02 20:54:30,580 : base_dir:/home/wanboyan/Documents/cmr-master/extern/GPV_Pose-master/output/NFwhole_prior_7
+2024-02-02 20:54:30,580 : keypoint_path:/home/bingxing2/home/scx6md6/wby/nocs_data/keypoint.pkl
+2024-02-02 20:54:30,580 : eval_visualize_pcl:0
+2024-02-02 20:54:30,580 : eval_inference_only:0
+2024-02-02 20:54:30,581 : resume_base_model_name:model_69.pth
+2024-02-02 20:54:30,581 : eval_out:output/v8_only_t
+2024-02-02 20:54:30,581 : verbose:0
+2024-02-02 20:54:30,581 : shuffle:1
+2024-02-02 20:54:30,581 : use_board:1
+2024-02-02 20:54:30,581 : use_pick:0
+2024-02-02 20:54:30,581 : pick_ratio:0.0
+2024-02-02 20:54:30,581 : nu_nocs:0
+2024-02-02 20:54:30,581 : per_obj:mug
+2024-02-02 20:54:30,582 : rotation_path:/home/bingxing2/home/scx6md6/wby/SOCS/nfmodel/rotation.pt
+2024-02-02 20:54:30,582 : debug_path:/home/wanboyan/Documents/cmr-master/extern/GPV_Pose-master/debug.pt
+2024-02-02 20:54:30,582 : rotation_noise_angle:20.0
+2024-02-02 20:54:30,582 : scale_invariant:0
+2024-02-02 20:54:30,582 : backbone:gcn_equi2
+2024-02-02 20:54:30,582 : qnet_version:v5
+2024-02-02 20:54:30,582 : qnet_config:qnet_equi_512.yaml
+2024-02-02 20:54:30,582 : dim_list:['128', '128', '256', '256', '512']
+2024-02-02 20:54:30,582 : equi_neighbor_num:10
+2024-02-02 20:54:30,582 : fix_kernel:0
+2024-02-02 20:54:30,583 : use_pred_scale:0
+2024-02-02 20:54:30,583 : obj_c:6
+2024-02-02 20:54:30,583 : eval_dataset:Real
+2024-02-02 20:54:30,583 : dataset:Real
+2024-02-02 20:54:30,583 : dataset_dir:/home/bingxing2/home/scx6md6/wby/nocs_data
+2024-02-02 20:54:30,583 : detection_dir:/data_nvme/nocs_data/segmentation_results
+2024-02-02 20:54:30,583 : dataset_size:big
+2024-02-02 20:54:30,583 : big_in_whole:1
+2024-02-02 20:54:30,583 : random_points:1028
+2024-02-02 20:54:30,584 : sample_method:farthest
+2024-02-02 20:54:30,584 : down_sample_method:farthest
+2024-02-02 20:54:30,584 : train:1
+2024-02-02 20:54:30,584 : device:cuda:0
+2024-02-02 20:54:30,584 : num_workers:4
+2024-02-02 20:54:30,584 : batch_size:4
+2024-02-02 20:54:30,584 : total_epoch:70
+2024-02-02 20:54:30,584 : train_steps:2000
+2024-02-02 20:54:30,584 : accumulate:1
+2024-02-02 20:54:30,584 : lr:0.0003
+2024-02-02 20:54:30,585 : lr_pose:1.0
+2024-02-02 20:54:30,585 : lr_decay_iters:50
+2024-02-02 20:54:30,585 : lr_scheduler_name:flat_and_anneal
+2024-02-02 20:54:30,585 : anneal_method:cosine
+2024-02-02 20:54:30,585 : anneal_point:0.5
+2024-02-02 20:54:30,585 : optimizer_type:Ranger
+2024-02-02 20:54:30,585 : weight_decay:0.0
+2024-02-02 20:54:30,585 : warmup_factor:0.001
+2024-02-02 20:54:30,585 : warmup_iters:1000
+2024-02-02 20:54:30,586 : warmup_method:linear
+2024-02-02 20:54:30,586 : gamma:0.1
+2024-02-02 20:54:30,586 : poly_power:0.9
+2024-02-02 20:54:30,586 : save_every:5
+2024-02-02 20:54:30,586 : log_every:10
+2024-02-02 20:54:30,586 : model_save:output/pips_equi_v5_far_far
+2024-02-02 20:54:30,586 : resume:0
+2024-02-02 20:54:30,586 : resume_dir:/data_nvme/trained_models/pips_s1_512_v5
+2024-02-02 20:54:30,586 : resume_model_name:model_49.pth
+2024-02-02 20:54:30,586 : resume_point:69
+2024-02-02 20:54:30,587 : ?:False
+2024-02-02 20:54:30,587 : help:False
+2024-02-02 20:54:30,587 : helpshort:False
+2024-02-02 20:54:30,587 : helpfull:False
+2024-02-02 20:54:30,587 : helpxml:False
+2024-02-02 20:54:31,370 : Time 00h 00m 00s, Epoch 00, Training started
+2024-02-02 20:54:43,054 : Batch 10 Loss:0.109890, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:54:43,055 : batch_dur 0.791560 , bach_loss_dur 0.791272
+2024-02-02 20:54:51,081 : Batch 20 Loss:0.109166, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:54:51,082 : batch_dur 0.788715 , bach_loss_dur 0.788436
+2024-02-02 20:54:59,070 : Batch 30 Loss:0.119526, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:54:59,070 : batch_dur 0.806628 , bach_loss_dur 0.806357
+2024-02-02 20:55:07,038 : Batch 40 Loss:0.099915, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:55:07,039 : batch_dur 0.794730 , bach_loss_dur 0.794456
+2024-02-02 20:55:15,029 : Batch 50 Loss:0.100360, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:55:15,030 : batch_dur 0.791667 , bach_loss_dur 0.791341
+2024-02-02 20:55:23,134 : Batch 60 Loss:0.098353, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:55:23,134 : batch_dur 0.814461 , bach_loss_dur 0.814191
+2024-02-02 20:55:31,158 : Batch 70 Loss:0.106183, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:55:31,158 : batch_dur 0.813977 , bach_loss_dur 0.813696
+2024-02-02 20:55:39,165 : Batch 80 Loss:0.115480, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:55:39,165 : batch_dur 0.792994 , bach_loss_dur 0.792727
+2024-02-02 20:55:47,168 : Batch 90 Loss:0.107212, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:55:47,169 : batch_dur 0.807495 , bach_loss_dur 0.807207
+2024-02-02 20:55:55,204 : Batch 100 Loss:0.104612, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:55:55,204 : batch_dur 0.801401 , bach_loss_dur 0.801131
+2024-02-02 20:56:03,246 : Batch 110 Loss:0.100463, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:03,247 : batch_dur 0.799368 , bach_loss_dur 0.799095
+2024-02-02 20:56:11,261 : Batch 120 Loss:0.098238, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:11,261 : batch_dur 0.826591 , bach_loss_dur 0.826318
+2024-02-02 20:56:19,294 : Batch 130 Loss:0.101208, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:19,295 : batch_dur 0.798307 , bach_loss_dur 0.798026
+2024-02-02 20:56:27,356 : Batch 140 Loss:0.109647, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:27,357 : batch_dur 0.804013 , bach_loss_dur 0.803738
+2024-02-02 20:56:35,418 : Batch 150 Loss:0.099018, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:35,419 : batch_dur 0.820544 , bach_loss_dur 0.820269
+2024-02-02 20:56:43,421 : Batch 160 Loss:0.101808, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:43,422 : batch_dur 0.815129 , bach_loss_dur 0.814861
+2024-02-02 20:56:51,440 : Batch 170 Loss:0.106878, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:51,441 : batch_dur 0.812628 , bach_loss_dur 0.812360
+2024-02-02 20:56:59,449 : Batch 180 Loss:0.087256, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:56:59,449 : batch_dur 0.812890 , bach_loss_dur 0.812625
+2024-02-02 20:57:07,502 : Batch 190 Loss:0.082599, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:57:07,502 : batch_dur 0.787107 , bach_loss_dur 0.786839
+2024-02-02 20:57:15,569 : Batch 200 Loss:0.081666, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:57:15,570 : batch_dur 0.796254 , bach_loss_dur 0.795949
+2024-02-02 20:57:23,602 : Batch 210 Loss:0.083889, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:57:23,602 : batch_dur 0.806323 , bach_loss_dur 0.806046
+2024-02-02 20:57:31,585 : Batch 220 Loss:0.084609, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:57:31,586 : batch_dur 0.805829 , bach_loss_dur 0.805541
+2024-02-02 20:57:39,661 : Batch 230 Loss:0.078177, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:57:39,662 : batch_dur 0.800932 , bach_loss_dur 0.800628
+2024-02-02 20:57:47,661 : Batch 240 Loss:0.072299, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:57:47,661 : batch_dur 0.809903 , bach_loss_dur 0.809607
+2024-02-02 20:57:55,720 : Batch 250 Loss:0.066464, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:57:55,720 : batch_dur 0.790023 , bach_loss_dur 0.789746
+2024-02-02 20:58:03,761 : Batch 260 Loss:0.057601, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:03,761 : batch_dur 0.792562 , bach_loss_dur 0.792289
+2024-02-02 20:58:11,811 : Batch 270 Loss:0.048197, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:11,811 : batch_dur 0.817465 , bach_loss_dur 0.817183
+2024-02-02 20:58:19,857 : Batch 280 Loss:0.050289, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:19,858 : batch_dur 0.823414 , bach_loss_dur 0.823109
+2024-02-02 20:58:27,842 : Batch 290 Loss:0.053016, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:27,842 : batch_dur 0.806837 , bach_loss_dur 0.806560
+2024-02-02 20:58:35,849 : Batch 300 Loss:0.046112, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:35,849 : batch_dur 0.803617 , bach_loss_dur 0.803324
+2024-02-02 20:58:43,878 : Batch 310 Loss:0.036648, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:43,878 : batch_dur 0.790559 , bach_loss_dur 0.790281
+2024-02-02 20:58:51,900 : Batch 320 Loss:0.052606, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:51,900 : batch_dur 0.803901 , bach_loss_dur 0.803632
+2024-02-02 20:58:59,959 : Batch 330 Loss:0.019026, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:58:59,960 : batch_dur 0.820892 , bach_loss_dur 0.820612
+2024-02-02 20:59:08,024 : Batch 340 Loss:0.027903, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:59:08,025 : batch_dur 0.801990 , bach_loss_dur 0.801727
+2024-02-02 20:59:16,030 : Batch 350 Loss:0.013464, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:59:16,031 : batch_dur 0.793103 , bach_loss_dur 0.792821
+2024-02-02 20:59:24,041 : Batch 360 Loss:0.008388, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:59:24,041 : batch_dur 0.811241 , bach_loss_dur 0.810958
+2024-02-02 20:59:32,031 : Batch 370 Loss:0.009759, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:59:32,032 : batch_dur 0.800084 , bach_loss_dur 0.799809
+2024-02-02 20:59:40,007 : Batch 380 Loss:-0.004008, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:59:40,008 : batch_dur 0.784041 , bach_loss_dur 0.783762
+2024-02-02 20:59:48,109 : Batch 390 Loss:-0.007251, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:59:48,109 : batch_dur 0.808735 , bach_loss_dur 0.808459
+2024-02-02 20:59:56,087 : Batch 400 Loss:-0.017709, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 20:59:56,088 : batch_dur 0.797226 , bach_loss_dur 0.796959
+2024-02-02 21:00:04,081 : Batch 410 Loss:-0.028137, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:00:04,082 : batch_dur 0.795518 , bach_loss_dur 0.795229
+2024-02-02 21:00:12,089 : Batch 420 Loss:-0.021961, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:00:12,089 : batch_dur 0.799618 , bach_loss_dur 0.799355
+2024-02-02 21:00:20,088 : Batch 430 Loss:-0.045527, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:00:20,088 : batch_dur 0.785726 , bach_loss_dur 0.785439
+2024-02-02 21:00:28,146 : Batch 440 Loss:-0.047595, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:00:28,147 : batch_dur 0.797147 , bach_loss_dur 0.796847
+2024-02-02 21:00:36,094 : Batch 450 Loss:-0.051940, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:00:36,094 : batch_dur 0.800737 , bach_loss_dur 0.800460
+2024-02-02 21:00:44,138 : Batch 460 Loss:-0.061720, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:00:44,138 : batch_dur 0.794388 , bach_loss_dur 0.794096
+2024-02-02 21:00:52,221 : Batch 470 Loss:-0.064331, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:00:52,222 : batch_dur 0.806284 , bach_loss_dur 0.806007
+2024-02-02 21:01:00,151 : Batch 480 Loss:-0.080577, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:00,152 : batch_dur 0.813071 , bach_loss_dur 0.812800
+2024-02-02 21:01:08,167 : Batch 490 Loss:-0.095580, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:08,168 : batch_dur 0.799246 , bach_loss_dur 0.798974
+2024-02-02 21:01:16,208 : Batch 500 Loss:-0.109773, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:16,208 : batch_dur 0.809476 , bach_loss_dur 0.809211
+2024-02-02 21:01:24,211 : Batch 510 Loss:-0.095754, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:24,212 : batch_dur 0.809109 , bach_loss_dur 0.808841
+2024-02-02 21:01:32,230 : Batch 520 Loss:-0.109900, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:32,230 : batch_dur 0.799045 , bach_loss_dur 0.798787
+2024-02-02 21:01:40,223 : Batch 530 Loss:-0.118136, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:40,223 : batch_dur 0.791203 , bach_loss_dur 0.790927
+2024-02-02 21:01:48,238 : Batch 540 Loss:-0.137240, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:48,239 : batch_dur 0.813503 , bach_loss_dur 0.813241
+2024-02-02 21:01:56,256 : Batch 550 Loss:-0.126732, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:01:56,257 : batch_dur 0.795861 , bach_loss_dur 0.795490
+2024-02-02 21:02:04,266 : Batch 560 Loss:-0.121997, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:02:04,267 : batch_dur 0.799160 , bach_loss_dur 0.798901
+2024-02-02 21:02:12,253 : Batch 570 Loss:-0.137964, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:02:12,253 : batch_dur 0.793569 , bach_loss_dur 0.793291
+2024-02-02 21:02:20,248 : Batch 580 Loss:-0.136485, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:02:20,249 : batch_dur 0.798242 , bach_loss_dur 0.797987
+2024-02-02 21:02:28,191 : Batch 590 Loss:-0.140528, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:02:28,191 : batch_dur 0.798003 , bach_loss_dur 0.797701
+2024-02-02 21:02:36,272 : Batch 600 Loss:-0.126982, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:02:36,272 : batch_dur 0.814030 , bach_loss_dur 0.813784
+2024-02-02 21:02:44,324 : Batch 610 Loss:-0.159627, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:02:44,324 : batch_dur 0.798816 , bach_loss_dur 0.798543
+2024-02-02 21:02:52,350 : Batch 620 Loss:-0.130476, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:02:52,351 : batch_dur 0.801576 , bach_loss_dur 0.801305
+2024-02-02 21:03:00,333 : Batch 630 Loss:-0.141070, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:00,334 : batch_dur 0.807572 , bach_loss_dur 0.807303
+2024-02-02 21:03:08,315 : Batch 640 Loss:-0.149672, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:08,316 : batch_dur 0.795686 , bach_loss_dur 0.795437
+2024-02-02 21:03:16,348 : Batch 650 Loss:-0.157334, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:16,348 : batch_dur 0.786923 , bach_loss_dur 0.786609
+2024-02-02 21:03:24,305 : Batch 660 Loss:-0.164957, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:24,305 : batch_dur 0.792199 , bach_loss_dur 0.791941
+2024-02-02 21:03:32,284 : Batch 670 Loss:-0.140173, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:32,285 : batch_dur 0.801749 , bach_loss_dur 0.801473
+2024-02-02 21:03:40,295 : Batch 680 Loss:-0.157478, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:40,296 : batch_dur 0.798566 , bach_loss_dur 0.798308
+2024-02-02 21:03:48,274 : Batch 690 Loss:-0.163990, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:48,274 : batch_dur 0.812271 , bach_loss_dur 0.811992
+2024-02-02 21:03:56,314 : Batch 700 Loss:-0.162012, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:03:56,315 : batch_dur 0.809262 , bach_loss_dur 0.808974
+2024-02-02 21:04:04,340 : Batch 710 Loss:-0.174452, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:04:04,341 : batch_dur 0.798021 , bach_loss_dur 0.797746
+2024-02-02 21:04:12,322 : Batch 720 Loss:-0.183575, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:04:12,322 : batch_dur 0.816813 , bach_loss_dur 0.816549
+2024-02-02 21:04:20,362 : Batch 730 Loss:-0.172426, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:04:20,362 : batch_dur 0.779120 , bach_loss_dur 0.778843
+2024-02-02 21:04:28,311 : Batch 740 Loss:-0.158035, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:04:28,311 : batch_dur 0.800694 , bach_loss_dur 0.800419
+2024-02-02 21:04:36,360 : Batch 750 Loss:-0.186883, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:04:36,361 : batch_dur 0.802697 , bach_loss_dur 0.802388
+2024-02-02 21:04:44,387 : Batch 760 Loss:-0.177803, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:04:44,387 : batch_dur 0.795326 , bach_loss_dur 0.795049
+2024-02-02 21:04:52,348 : Batch 770 Loss:-0.195522, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:04:52,349 : batch_dur 0.797974 , bach_loss_dur 0.797708
+2024-02-02 21:05:00,336 : Batch 780 Loss:-0.187136, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:00,337 : batch_dur 0.814313 , bach_loss_dur 0.814016
+2024-02-02 21:05:08,326 : Batch 790 Loss:-0.192070, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:08,326 : batch_dur 0.791807 , bach_loss_dur 0.791532
+2024-02-02 21:05:16,398 : Batch 800 Loss:-0.178440, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:16,398 : batch_dur 0.914053 , bach_loss_dur 0.913777
+2024-02-02 21:05:24,405 : Batch 810 Loss:-0.214805, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:24,405 : batch_dur 0.804745 , bach_loss_dur 0.804475
+2024-02-02 21:05:32,346 : Batch 820 Loss:-0.212215, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:32,346 : batch_dur 0.782581 , bach_loss_dur 0.782324
+2024-02-02 21:05:40,345 : Batch 830 Loss:-0.188372, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:40,345 : batch_dur 0.810066 , bach_loss_dur 0.809791
+2024-02-02 21:05:48,405 : Batch 840 Loss:-0.197902, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:48,405 : batch_dur 0.813640 , bach_loss_dur 0.813366
+2024-02-02 21:05:56,415 : Batch 850 Loss:-0.203838, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:05:56,415 : batch_dur 0.798118 , bach_loss_dur 0.797845
+2024-02-02 21:06:04,453 : Batch 860 Loss:-0.230240, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:06:04,454 : batch_dur 0.781140 , bach_loss_dur 0.780858
+2024-02-02 21:06:12,498 : Batch 870 Loss:-0.188377, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:06:12,499 : batch_dur 0.797604 , bach_loss_dur 0.797258
+2024-02-02 21:06:20,475 : Batch 880 Loss:-0.214377, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:06:20,475 : batch_dur 0.801175 , bach_loss_dur 0.800901
+2024-02-02 21:06:28,506 : Batch 890 Loss:-0.172922, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:06:28,507 : batch_dur 0.819051 , bach_loss_dur 0.818790
+2024-02-02 21:06:36,497 : Batch 900 Loss:-0.222608, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:06:36,497 : batch_dur 0.805450 , bach_loss_dur 0.805177
+2024-02-02 21:06:44,521 : Batch 910 Loss:-0.232078, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:06:44,521 : batch_dur 0.793791 , bach_loss_dur 0.793495
+2024-02-02 21:06:52,528 : Batch 920 Loss:-0.185664, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:06:52,528 : batch_dur 0.790248 , bach_loss_dur 0.789969
+2024-02-02 21:07:00,510 : Batch 930 Loss:-0.189592, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:00,511 : batch_dur 0.823597 , bach_loss_dur 0.823316
+2024-02-02 21:07:08,541 : Batch 940 Loss:-0.218377, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:08,542 : batch_dur 0.801732 , bach_loss_dur 0.801435
+2024-02-02 21:07:16,597 : Batch 950 Loss:-0.212774, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:16,597 : batch_dur 0.802339 , bach_loss_dur 0.802064
+2024-02-02 21:07:24,626 : Batch 960 Loss:-0.213134, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:24,627 : batch_dur 0.818035 , bach_loss_dur 0.817769
+2024-02-02 21:07:32,636 : Batch 970 Loss:-0.211162, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:32,636 : batch_dur 0.798619 , bach_loss_dur 0.798353
+2024-02-02 21:07:40,619 : Batch 980 Loss:-0.214902, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:40,619 : batch_dur 0.800306 , bach_loss_dur 0.800050
+2024-02-02 21:07:48,611 : Batch 990 Loss:-0.220539, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:48,611 : batch_dur 0.819222 , bach_loss_dur 0.818947
+2024-02-02 21:07:56,648 : Batch 1000 Loss:-0.240694, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:07:56,648 : batch_dur 0.797494 , bach_loss_dur 0.797226
+2024-02-02 21:08:04,639 : Batch 1010 Loss:-0.225873, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:08:04,639 : batch_dur 0.806777 , bach_loss_dur 0.806483
+2024-02-02 21:08:12,637 : Batch 1020 Loss:-0.200007, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:08:12,637 : batch_dur 0.804867 , bach_loss_dur 0.804586
+2024-02-02 21:08:20,635 : Batch 1030 Loss:-0.192140, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:08:20,635 : batch_dur 0.797814 , bach_loss_dur 0.797539
+2024-02-02 21:08:28,665 : Batch 1040 Loss:-0.207304, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:08:28,666 : batch_dur 0.809641 , bach_loss_dur 0.809365
+2024-02-02 21:08:36,678 : Batch 1050 Loss:-0.224087, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:08:36,679 : batch_dur 0.806164 , bach_loss_dur 0.805905
+2024-02-02 21:08:44,706 : Batch 1060 Loss:-0.196912, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:08:44,707 : batch_dur 0.806839 , bach_loss_dur 0.806568
+2024-02-02 21:08:52,799 : Batch 1070 Loss:-0.213360, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:08:52,800 : batch_dur 0.819978 , bach_loss_dur 0.819701
+2024-02-02 21:09:00,844 : Batch 1080 Loss:-0.184072, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:00,844 : batch_dur 0.825212 , bach_loss_dur 0.824945
+2024-02-02 21:09:08,885 : Batch 1090 Loss:-0.224453, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:08,885 : batch_dur 0.817963 , bach_loss_dur 0.817711
+2024-02-02 21:09:16,903 : Batch 1100 Loss:-0.185239, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:16,903 : batch_dur 0.794986 , bach_loss_dur 0.794722
+2024-02-02 21:09:24,923 : Batch 1110 Loss:-0.206775, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:24,923 : batch_dur 0.815212 , bach_loss_dur 0.814945
+2024-02-02 21:09:32,936 : Batch 1120 Loss:-0.205670, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:32,936 : batch_dur 0.793822 , bach_loss_dur 0.793509
+2024-02-02 21:09:40,954 : Batch 1130 Loss:-0.205008, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:40,955 : batch_dur 0.791504 , bach_loss_dur 0.791245
+2024-02-02 21:09:49,004 : Batch 1140 Loss:-0.204898, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:49,004 : batch_dur 0.825953 , bach_loss_dur 0.825665
+2024-02-02 21:09:57,042 : Batch 1150 Loss:-0.232577, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:09:57,042 : batch_dur 0.810763 , bach_loss_dur 0.810468
+2024-02-02 21:10:05,000 : Batch 1160 Loss:-0.233098, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:10:05,000 : batch_dur 0.797524 , bach_loss_dur 0.797283
+2024-02-02 21:10:13,036 : Batch 1170 Loss:-0.212395, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:10:13,036 : batch_dur 0.811777 , bach_loss_dur 0.811479
+2024-02-02 21:10:21,021 : Batch 1180 Loss:-0.213503, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:10:21,021 : batch_dur 0.799031 , bach_loss_dur 0.798761
+2024-02-02 21:10:29,052 : Batch 1190 Loss:-0.197373, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:10:29,052 : batch_dur 0.793984 , bach_loss_dur 0.793694
+2024-02-02 21:10:37,078 : Batch 1200 Loss:-0.213639, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:10:37,078 : batch_dur 0.813992 , bach_loss_dur 0.813712
+2024-02-02 21:10:45,072 : Batch 1210 Loss:-0.193005, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:10:45,073 : batch_dur 0.790289 , bach_loss_dur 0.790012
+2024-02-02 21:10:53,077 : Batch 1220 Loss:-0.212996, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:10:53,078 : batch_dur 0.806399 , bach_loss_dur 0.806118
+2024-02-02 21:11:01,113 : Batch 1230 Loss:-0.199761, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:01,113 : batch_dur 0.812557 , bach_loss_dur 0.812275
+2024-02-02 21:11:09,087 : Batch 1240 Loss:-0.219341, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:09,088 : batch_dur 0.790625 , bach_loss_dur 0.790352
+2024-02-02 21:11:17,106 : Batch 1250 Loss:-0.211402, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:17,107 : batch_dur 0.788265 , bach_loss_dur 0.787975
+2024-02-02 21:11:25,109 : Batch 1260 Loss:-0.189699, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:25,109 : batch_dur 0.799723 , bach_loss_dur 0.799463
+2024-02-02 21:11:33,124 : Batch 1270 Loss:-0.227242, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:33,125 : batch_dur 0.808850 , bach_loss_dur 0.808590
+2024-02-02 21:11:41,127 : Batch 1280 Loss:-0.221772, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:41,128 : batch_dur 0.801513 , bach_loss_dur 0.801226
+2024-02-02 21:11:49,122 : Batch 1290 Loss:-0.160421, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:49,123 : batch_dur 0.810748 , bach_loss_dur 0.810491
+2024-02-02 21:11:57,127 : Batch 1300 Loss:-0.191117, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:11:57,128 : batch_dur 0.802763 , bach_loss_dur 0.802450
+2024-02-02 21:12:05,203 : Batch 1310 Loss:-0.209420, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:12:05,203 : batch_dur 0.822055 , bach_loss_dur 0.821749
+2024-02-02 21:12:13,164 : Batch 1320 Loss:-0.215385, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:12:13,164 : batch_dur 0.799089 , bach_loss_dur 0.798821
+2024-02-02 21:12:21,226 : Batch 1330 Loss:-0.161473, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:12:21,226 : batch_dur 0.794160 , bach_loss_dur 0.793871
+2024-02-02 21:12:29,235 : Batch 1340 Loss:-0.208310, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:12:29,235 : batch_dur 0.795469 , bach_loss_dur 0.795190
+2024-02-02 21:12:37,204 : Batch 1350 Loss:-0.165119, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:12:37,205 : batch_dur 0.817379 , bach_loss_dur 0.817095
+2024-02-02 21:12:45,215 : Batch 1360 Loss:-0.172349, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:12:45,215 : batch_dur 0.804612 , bach_loss_dur 0.804309
+2024-02-02 21:12:53,227 : Batch 1370 Loss:-0.194211, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:12:53,228 : batch_dur 0.782146 , bach_loss_dur 0.781868
+2024-02-02 21:13:01,241 : Batch 1380 Loss:-0.225685, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:01,242 : batch_dur 0.809653 , bach_loss_dur 0.809345
+2024-02-02 21:13:09,216 : Batch 1390 Loss:-0.198268, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:09,216 : batch_dur 0.807897 , bach_loss_dur 0.807643
+2024-02-02 21:13:17,213 : Batch 1400 Loss:-0.197682, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:17,213 : batch_dur 0.797024 , bach_loss_dur 0.796753
+2024-02-02 21:13:25,290 : Batch 1410 Loss:-0.192885, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:25,291 : batch_dur 0.812973 , bach_loss_dur 0.812549
+2024-02-02 21:13:33,304 : Batch 1420 Loss:-0.186900, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:33,305 : batch_dur 0.806077 , bach_loss_dur 0.805801
+2024-02-02 21:13:41,262 : Batch 1430 Loss:-0.201296, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:41,263 : batch_dur 0.803564 , bach_loss_dur 0.803308
+2024-02-02 21:13:49,300 : Batch 1440 Loss:-0.206892, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:49,300 : batch_dur 0.820392 , bach_loss_dur 0.820097
+2024-02-02 21:13:57,305 : Batch 1450 Loss:-0.139731, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:13:57,305 : batch_dur 0.790435 , bach_loss_dur 0.790183
+2024-02-02 21:14:05,308 : Batch 1460 Loss:-0.202821, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:14:05,308 : batch_dur 0.802027 , bach_loss_dur 0.801762
+2024-02-02 21:14:13,333 : Batch 1470 Loss:-0.174803, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:14:13,333 : batch_dur 0.807752 , bach_loss_dur 0.807491
+2024-02-02 21:14:21,336 : Batch 1480 Loss:-0.174197, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:14:21,336 : batch_dur 0.778813 , bach_loss_dur 0.778551
+2024-02-02 21:14:29,396 : Batch 1490 Loss:-0.160940, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:14:29,397 : batch_dur 0.789463 , bach_loss_dur 0.789169
+2024-02-02 21:14:37,474 : Batch 1500 Loss:-0.201154, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:14:37,475 : batch_dur 0.818996 , bach_loss_dur 0.818737
+2024-02-02 21:14:45,438 : Batch 1510 Loss:-0.220539, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:14:45,438 : batch_dur 0.792706 , bach_loss_dur 0.792402
+2024-02-02 21:14:53,487 : Batch 1520 Loss:-0.192651, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:14:53,488 : batch_dur 0.801287 , bach_loss_dur 0.801038
+2024-02-02 21:15:01,540 : Batch 1530 Loss:-0.202409, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:01,540 : batch_dur 0.810858 , bach_loss_dur 0.810589
+2024-02-02 21:15:09,576 : Batch 1540 Loss:-0.220533, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:09,576 : batch_dur 0.805297 , bach_loss_dur 0.805022
+2024-02-02 21:15:17,607 : Batch 1550 Loss:-0.212969, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:17,607 : batch_dur 0.800358 , bach_loss_dur 0.800100
+2024-02-02 21:15:25,621 : Batch 1560 Loss:-0.183805, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:25,621 : batch_dur 0.822735 , bach_loss_dur 0.822458
+2024-02-02 21:15:33,589 : Batch 1570 Loss:-0.176987, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:33,589 : batch_dur 0.781965 , bach_loss_dur 0.781706
+2024-02-02 21:15:41,628 : Batch 1580 Loss:-0.201974, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:41,628 : batch_dur 0.787119 , bach_loss_dur 0.786836
+2024-02-02 21:15:49,592 : Batch 1590 Loss:-0.184993, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:49,593 : batch_dur 0.798583 , bach_loss_dur 0.798322
+2024-02-02 21:15:57,636 : Batch 1600 Loss:-0.207354, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:15:57,636 : batch_dur 0.797388 , bach_loss_dur 0.797113
+2024-02-02 21:16:05,727 : Batch 1610 Loss:-0.196837, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:16:05,727 : batch_dur 0.799965 , bach_loss_dur 0.799649
+2024-02-02 21:16:13,716 : Batch 1620 Loss:-0.206928, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:16:13,717 : batch_dur 0.810874 , bach_loss_dur 0.810583
+2024-02-02 21:16:21,700 : Batch 1630 Loss:-0.177063, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:16:21,701 : batch_dur 0.795647 , bach_loss_dur 0.795374
+2024-02-02 21:16:29,697 : Batch 1640 Loss:-0.199856, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:16:29,698 : batch_dur 0.787009 , bach_loss_dur 0.786735
+2024-02-02 21:16:37,706 : Batch 1650 Loss:-0.172670, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:16:37,706 : batch_dur 0.818786 , bach_loss_dur 0.818497
+2024-02-02 21:16:45,686 : Batch 1660 Loss:-0.190590, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:16:45,686 : batch_dur 0.802985 , bach_loss_dur 0.802707
+2024-02-02 21:16:53,683 : Batch 1670 Loss:-0.203635, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:16:53,684 : batch_dur 0.790734 , bach_loss_dur 0.790470
+2024-02-02 21:17:01,672 : Batch 1680 Loss:-0.175363, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:01,673 : batch_dur 0.804531 , bach_loss_dur 0.804251
+2024-02-02 21:17:09,659 : Batch 1690 Loss:-0.209444, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:09,660 : batch_dur 0.793323 , bach_loss_dur 0.793048
+2024-02-02 21:17:17,609 : Batch 1700 Loss:-0.148366, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:17,609 : batch_dur 0.788733 , bach_loss_dur 0.788461
+2024-02-02 21:17:25,610 : Batch 1710 Loss:-0.161348, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:25,610 : batch_dur 0.808601 , bach_loss_dur 0.808315
+2024-02-02 21:17:33,621 : Batch 1720 Loss:-0.141628, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:33,621 : batch_dur 0.800920 , bach_loss_dur 0.800622
+2024-02-02 21:17:41,602 : Batch 1730 Loss:-0.192430, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:41,602 : batch_dur 0.803270 , bach_loss_dur 0.802998
+2024-02-02 21:17:49,620 : Batch 1740 Loss:-0.223956, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:49,621 : batch_dur 0.824247 , bach_loss_dur 0.823957
+2024-02-02 21:17:57,589 : Batch 1750 Loss:-0.157659, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:17:57,590 : batch_dur 0.793699 , bach_loss_dur 0.793426
+2024-02-02 21:18:05,639 : Batch 1760 Loss:-0.187395, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:18:05,640 : batch_dur 0.794853 , bach_loss_dur 0.794572
+2024-02-02 21:18:13,660 : Batch 1770 Loss:-0.167381, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:18:13,661 : batch_dur 0.817510 , bach_loss_dur 0.817246
+2024-02-02 21:18:21,719 : Batch 1780 Loss:-0.177684, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:18:21,720 : batch_dur 0.815127 , bach_loss_dur 0.814846
+2024-02-02 21:18:29,706 : Batch 1790 Loss:-0.181079, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:18:29,707 : batch_dur 0.785919 , bach_loss_dur 0.785639
+2024-02-02 21:18:37,691 : Batch 1800 Loss:-0.180232, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:18:37,691 : batch_dur 0.819734 , bach_loss_dur 0.819447
+2024-02-02 21:18:45,693 : Batch 1810 Loss:-0.167717, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:18:45,693 : batch_dur 0.796318 , bach_loss_dur 0.796060
+2024-02-02 21:18:53,705 : Batch 1820 Loss:-0.165800, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:18:53,705 : batch_dur 0.783275 , bach_loss_dur 0.782993
+2024-02-02 21:19:01,694 : Batch 1830 Loss:-0.167107, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:01,695 : batch_dur 0.800815 , bach_loss_dur 0.800552
+2024-02-02 21:19:09,669 : Batch 1840 Loss:-0.179757, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:09,669 : batch_dur 0.790945 , bach_loss_dur 0.790683
+2024-02-02 21:19:17,659 : Batch 1850 Loss:-0.186587, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:17,659 : batch_dur 0.792058 , bach_loss_dur 0.791825
+2024-02-02 21:19:25,654 : Batch 1860 Loss:-0.176424, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:25,654 : batch_dur 0.795506 , bach_loss_dur 0.795221
+2024-02-02 21:19:33,632 : Batch 1870 Loss:-0.176682, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:33,632 : batch_dur 0.799333 , bach_loss_dur 0.799084
+2024-02-02 21:19:41,594 : Batch 1880 Loss:-0.159060, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:41,595 : batch_dur 0.784009 , bach_loss_dur 0.783719
+2024-02-02 21:19:49,671 : Batch 1890 Loss:-0.168829, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:49,672 : batch_dur 0.825436 , bach_loss_dur 0.825181
+2024-02-02 21:19:57,637 : Batch 1900 Loss:-0.176776, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:19:57,638 : batch_dur 0.790017 , bach_loss_dur 0.789746
+2024-02-02 21:20:05,609 : Batch 1910 Loss:-0.219422, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:20:05,609 : batch_dur 0.794322 , bach_loss_dur 0.794048
+2024-02-02 21:20:13,645 : Batch 1920 Loss:-0.184078, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:20:13,645 : batch_dur 0.823735 , bach_loss_dur 0.823453
+2024-02-02 21:20:21,633 : Batch 1930 Loss:-0.218343, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:20:21,634 : batch_dur 0.798274 , bach_loss_dur 0.798009
+2024-02-02 21:20:29,654 : Batch 1940 Loss:-0.182184, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:20:29,655 : batch_dur 0.793806 , bach_loss_dur 0.793483
+2024-02-02 21:20:37,634 : Batch 1950 Loss:-0.197075, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:20:37,635 : batch_dur 0.814937 , bach_loss_dur 0.814682
+2024-02-02 21:20:45,611 : Batch 1960 Loss:-0.181628, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:20:45,612 : batch_dur 0.788952 , bach_loss_dur 0.788655
+2024-02-02 21:20:53,586 : Batch 1970 Loss:-0.180573, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:20:53,587 : batch_dur 0.781833 , bach_loss_dur 0.781559
+2024-02-02 21:21:01,551 : Batch 1980 Loss:-0.154302, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:01,551 : batch_dur 0.786057 , bach_loss_dur 0.785778
+2024-02-02 21:21:09,525 : Batch 1990 Loss:-0.187547, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:09,526 : batch_dur 0.802636 , bach_loss_dur 0.802351
+2024-02-02 21:21:17,523 : Batch 2000 Loss:-0.172581, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:17,524 : batch_dur 0.802824 , bach_loss_dur 0.802693
+2024-02-02 21:21:17,535 : >>>>>>>>----------Epoch 00 train finish---------<<<<<<<<
+2024-02-02 21:21:17,535 : Time 00h 26m 46s, Epoch 01, Training started
+2024-02-02 21:21:26,669 : Batch 10 Loss:-0.153582, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:26,670 : batch_dur 0.809041 , bach_loss_dur 0.808766
+2024-02-02 21:21:34,680 : Batch 20 Loss:-0.161321, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:34,681 : batch_dur 0.778209 , bach_loss_dur 0.777935
+2024-02-02 21:21:42,670 : Batch 30 Loss:-0.177051, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:42,670 : batch_dur 0.794091 , bach_loss_dur 0.793815
+2024-02-02 21:21:50,691 : Batch 40 Loss:-0.190599, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:50,692 : batch_dur 0.802140 , bach_loss_dur 0.801857
+2024-02-02 21:21:58,694 : Batch 50 Loss:-0.176625, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:21:58,695 : batch_dur 0.794155 , bach_loss_dur 0.793882
+2024-02-02 21:22:06,720 : Batch 60 Loss:-0.160481, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:22:06,721 : batch_dur 0.807464 , bach_loss_dur 0.807187
+2024-02-02 21:22:14,719 : Batch 70 Loss:-0.157951, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:22:14,720 : batch_dur 0.796299 , bach_loss_dur 0.796016
+2024-02-02 21:22:22,743 : Batch 80 Loss:-0.172303, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:22:22,743 : batch_dur 0.805971 , bach_loss_dur 0.805696
+2024-02-02 21:22:30,769 : Batch 90 Loss:-0.156014, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:22:30,769 : batch_dur 0.800302 , bach_loss_dur 0.800006
+2024-02-02 21:22:38,797 : Batch 100 Loss:-0.177066, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:22:38,798 : batch_dur 0.814908 , bach_loss_dur 0.814636
+2024-02-02 21:22:46,795 : Batch 110 Loss:-0.176795, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:22:46,796 : batch_dur 0.801421 , bach_loss_dur 0.801166
+2024-02-02 21:22:54,834 : Batch 120 Loss:-0.179245, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:22:54,834 : batch_dur 0.806475 , bach_loss_dur 0.806177
+2024-02-02 21:23:02,857 : Batch 130 Loss:-0.171444, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:02,858 : batch_dur 0.824848 , bach_loss_dur 0.824589
+2024-02-02 21:23:10,957 : Batch 140 Loss:-0.191612, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:10,957 : batch_dur 0.801938 , bach_loss_dur 0.801625
+2024-02-02 21:23:18,997 : Batch 150 Loss:-0.184789, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:18,997 : batch_dur 0.791915 , bach_loss_dur 0.791657
+2024-02-02 21:23:26,975 : Batch 160 Loss:-0.155783, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:26,976 : batch_dur 0.789445 , bach_loss_dur 0.789173
+2024-02-02 21:23:35,004 : Batch 170 Loss:-0.155397, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:35,005 : batch_dur 0.807548 , bach_loss_dur 0.807250
+2024-02-02 21:23:43,046 : Batch 180 Loss:-0.165368, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:43,046 : batch_dur 0.801400 , bach_loss_dur 0.801142
+2024-02-02 21:23:51,052 : Batch 190 Loss:-0.184849, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:51,053 : batch_dur 0.838965 , bach_loss_dur 0.838716
+2024-02-02 21:23:59,051 : Batch 200 Loss:-0.172809, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:23:59,051 : batch_dur 0.804925 , bach_loss_dur 0.804596
+2024-02-02 21:24:07,059 : Batch 210 Loss:-0.178198, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:24:07,059 : batch_dur 0.794348 , bach_loss_dur 0.794074
+2024-02-02 21:24:15,094 : Batch 220 Loss:-0.172478, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:24:15,094 : batch_dur 0.800581 , bach_loss_dur 0.800266
+2024-02-02 21:24:23,151 : Batch 230 Loss:-0.149134, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:24:23,152 : batch_dur 0.804573 , bach_loss_dur 0.804291
+2024-02-02 21:24:31,182 : Batch 240 Loss:-0.163729, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:24:31,183 : batch_dur 0.819720 , bach_loss_dur 0.819449
+2024-02-02 21:24:39,204 : Batch 250 Loss:-0.160867, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:24:39,204 : batch_dur 0.808901 , bach_loss_dur 0.808635
+2024-02-02 21:24:47,205 : Batch 260 Loss:-0.149888, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:24:47,205 : batch_dur 0.799367 , bach_loss_dur 0.799089
+2024-02-02 21:24:55,205 : Batch 270 Loss:-0.157770, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:24:55,206 : batch_dur 0.790807 , bach_loss_dur 0.790527
+2024-02-02 21:25:03,243 : Batch 280 Loss:-0.172222, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:03,243 : batch_dur 0.810522 , bach_loss_dur 0.810191
+2024-02-02 21:25:11,260 : Batch 290 Loss:-0.176860, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:11,261 : batch_dur 0.806335 , bach_loss_dur 0.806056
+2024-02-02 21:25:19,288 : Batch 300 Loss:-0.149550, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:19,288 : batch_dur 0.803323 , bach_loss_dur 0.803047
+2024-02-02 21:25:27,358 : Batch 310 Loss:-0.143271, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:27,359 : batch_dur 0.803648 , bach_loss_dur 0.803374
+2024-02-02 21:25:35,338 : Batch 320 Loss:-0.188732, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:35,339 : batch_dur 0.791519 , bach_loss_dur 0.791225
+2024-02-02 21:25:43,422 : Batch 330 Loss:-0.161560, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:43,423 : batch_dur 0.808105 , bach_loss_dur 0.807822
+2024-02-02 21:25:51,419 : Batch 340 Loss:-0.165789, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:51,420 : batch_dur 0.802385 , bach_loss_dur 0.802132
+2024-02-02 21:25:59,525 : Batch 350 Loss:-0.143256, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:25:59,525 : batch_dur 0.799762 , bach_loss_dur 0.799480
+2024-02-02 21:26:07,561 : Batch 360 Loss:-0.167223, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:26:07,561 : batch_dur 0.794237 , bach_loss_dur 0.793983
+2024-02-02 21:26:15,563 : Batch 370 Loss:-0.100267, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:26:15,563 : batch_dur 0.790988 , bach_loss_dur 0.790719
+2024-02-02 21:26:23,557 : Batch 380 Loss:-0.142371, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:26:23,558 : batch_dur 0.796112 , bach_loss_dur 0.795846
+2024-02-02 21:26:31,559 : Batch 390 Loss:-0.151139, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:26:31,560 : batch_dur 0.796757 , bach_loss_dur 0.796507
+2024-02-02 21:26:39,539 : Batch 400 Loss:-0.143919, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:26:39,540 : batch_dur 0.803078 , bach_loss_dur 0.802819
+2024-02-02 21:26:47,512 : Batch 410 Loss:-0.171961, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:26:47,512 : batch_dur 0.804775 , bach_loss_dur 0.804493
+2024-02-02 21:26:55,524 : Batch 420 Loss:-0.164865, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:26:55,525 : batch_dur 0.799428 , bach_loss_dur 0.799169
+2024-02-02 21:27:03,510 : Batch 430 Loss:-0.151945, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:03,510 : batch_dur 0.800682 , bach_loss_dur 0.800380
+2024-02-02 21:27:11,517 : Batch 440 Loss:-0.154647, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:11,518 : batch_dur 0.788582 , bach_loss_dur 0.788331
+2024-02-02 21:27:19,502 : Batch 450 Loss:-0.157957, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:19,503 : batch_dur 0.786785 , bach_loss_dur 0.786500
+2024-02-02 21:27:27,515 : Batch 460 Loss:-0.153607, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:27,516 : batch_dur 0.789289 , bach_loss_dur 0.789023
+2024-02-02 21:27:35,468 : Batch 470 Loss:-0.170967, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:35,469 : batch_dur 0.790451 , bach_loss_dur 0.790178
+2024-02-02 21:27:43,483 : Batch 480 Loss:-0.159779, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:43,483 : batch_dur 0.791802 , bach_loss_dur 0.791543
+2024-02-02 21:27:51,523 : Batch 490 Loss:-0.144358, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:51,523 : batch_dur 0.818101 , bach_loss_dur 0.817808
+2024-02-02 21:27:59,551 : Batch 500 Loss:-0.165363, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:27:59,552 : batch_dur 0.805215 , bach_loss_dur 0.804937
+2024-02-02 21:28:07,585 : Batch 510 Loss:-0.142878, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:28:07,586 : batch_dur 0.811794 , bach_loss_dur 0.811508
+2024-02-02 21:28:15,635 : Batch 520 Loss:-0.144093, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:28:15,636 : batch_dur 0.826620 , bach_loss_dur 0.826342
+2024-02-02 21:28:23,621 : Batch 530 Loss:-0.143793, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:28:23,621 : batch_dur 0.785345 , bach_loss_dur 0.785069
+2024-02-02 21:28:31,640 : Batch 540 Loss:-0.164800, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:28:31,640 : batch_dur 0.813688 , bach_loss_dur 0.813402
+2024-02-02 21:28:39,592 : Batch 550 Loss:-0.112566, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:28:39,593 : batch_dur 0.805786 , bach_loss_dur 0.805503
+2024-02-02 21:28:47,584 : Batch 560 Loss:-0.145143, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:28:47,585 : batch_dur 0.806441 , bach_loss_dur 0.806153
+2024-02-02 21:28:55,593 : Batch 570 Loss:-0.140660, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:28:55,594 : batch_dur 0.796344 , bach_loss_dur 0.796058
+2024-02-02 21:29:03,556 : Batch 580 Loss:-0.168075, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:03,557 : batch_dur 0.804474 , bach_loss_dur 0.804170
+2024-02-02 21:29:11,620 : Batch 590 Loss:-0.154062, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:11,620 : batch_dur 0.811767 , bach_loss_dur 0.811485
+2024-02-02 21:29:19,686 : Batch 600 Loss:-0.139531, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:19,687 : batch_dur 0.798372 , bach_loss_dur 0.798096
+2024-02-02 21:29:27,663 : Batch 610 Loss:-0.150968, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:27,663 : batch_dur 0.802238 , bach_loss_dur 0.801955
+2024-02-02 21:29:35,660 : Batch 620 Loss:-0.159320, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:35,661 : batch_dur 0.794675 , bach_loss_dur 0.794419
+2024-02-02 21:29:43,644 : Batch 630 Loss:-0.147223, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:43,644 : batch_dur 0.799794 , bach_loss_dur 0.799520
+2024-02-02 21:29:51,616 : Batch 640 Loss:-0.140340, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:51,617 : batch_dur 0.804077 , bach_loss_dur 0.803821
+2024-02-02 21:29:59,654 : Batch 650 Loss:-0.140537, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:29:59,654 : batch_dur 0.801306 , bach_loss_dur 0.801031
+2024-02-02 21:30:07,687 : Batch 660 Loss:-0.140599, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:30:07,688 : batch_dur 0.792110 , bach_loss_dur 0.791849
+2024-02-02 21:30:15,701 : Batch 670 Loss:-0.145888, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:30:15,702 : batch_dur 0.805806 , bach_loss_dur 0.805524
+2024-02-02 21:30:23,752 : Batch 680 Loss:-0.131826, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:30:23,752 : batch_dur 0.802225 , bach_loss_dur 0.801975
+2024-02-02 21:30:31,711 : Batch 690 Loss:-0.127658, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:30:31,711 : batch_dur 0.786722 , bach_loss_dur 0.786448
+2024-02-02 21:30:39,755 : Batch 700 Loss:-0.120724, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:30:39,755 : batch_dur 0.808101 , bach_loss_dur 0.807842
+2024-02-02 21:30:47,765 : Batch 710 Loss:-0.144576, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:30:47,765 : batch_dur 0.796646 , bach_loss_dur 0.796371
+2024-02-02 21:30:55,762 : Batch 720 Loss:-0.150885, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:30:55,763 : batch_dur 0.782946 , bach_loss_dur 0.782687
+2024-02-02 21:31:03,769 : Batch 730 Loss:-0.138153, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:03,770 : batch_dur 0.801544 , bach_loss_dur 0.801259
+2024-02-02 21:31:11,824 : Batch 740 Loss:-0.156132, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:11,824 : batch_dur 0.807254 , bach_loss_dur 0.806997
+2024-02-02 21:31:19,858 : Batch 750 Loss:-0.141380, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:19,859 : batch_dur 0.800346 , bach_loss_dur 0.800028
+2024-02-02 21:31:27,876 : Batch 760 Loss:-0.153200, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:27,877 : batch_dur 0.807817 , bach_loss_dur 0.807547
+2024-02-02 21:31:35,893 : Batch 770 Loss:-0.142008, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:35,893 : batch_dur 0.808731 , bach_loss_dur 0.808452
+2024-02-02 21:31:43,889 : Batch 780 Loss:-0.152761, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:43,889 : batch_dur 0.816811 , bach_loss_dur 0.816545
+2024-02-02 21:31:51,909 : Batch 790 Loss:-0.134093, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:51,909 : batch_dur 0.806403 , bach_loss_dur 0.806130
+2024-02-02 21:31:59,973 : Batch 800 Loss:-0.136016, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:31:59,973 : batch_dur 0.819452 , bach_loss_dur 0.819144
+2024-02-02 21:32:08,018 : Batch 810 Loss:-0.134765, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:32:08,019 : batch_dur 0.804821 , bach_loss_dur 0.804550
+2024-02-02 21:32:16,044 : Batch 820 Loss:-0.126677, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:32:16,045 : batch_dur 0.815584 , bach_loss_dur 0.815317
+2024-02-02 21:32:24,076 : Batch 830 Loss:-0.137651, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:32:24,076 : batch_dur 0.808003 , bach_loss_dur 0.807713
+2024-02-02 21:32:32,102 : Batch 840 Loss:-0.162283, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:32:32,102 : batch_dur 0.789151 , bach_loss_dur 0.788842
+2024-02-02 21:32:40,135 : Batch 850 Loss:-0.118675, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:32:40,136 : batch_dur 0.810990 , bach_loss_dur 0.810698
+2024-02-02 21:32:48,166 : Batch 860 Loss:-0.161254, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:32:48,167 : batch_dur 0.800674 , bach_loss_dur 0.800381
+2024-02-02 21:32:56,171 : Batch 870 Loss:-0.145602, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:32:56,171 : batch_dur 0.794111 , bach_loss_dur 0.793837
+2024-02-02 21:33:04,206 : Batch 880 Loss:-0.103977, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:33:04,207 : batch_dur 0.815466 , bach_loss_dur 0.815181
+2024-02-02 21:33:12,241 : Batch 890 Loss:-0.129148, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:33:12,242 : batch_dur 0.795324 , bach_loss_dur 0.795063
+2024-02-02 21:33:20,288 : Batch 900 Loss:-0.143516, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:33:20,289 : batch_dur 0.798565 , bach_loss_dur 0.798271
+2024-02-02 21:33:28,336 : Batch 910 Loss:-0.129110, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:33:28,336 : batch_dur 0.810757 , bach_loss_dur 0.810481
+2024-02-02 21:33:36,338 : Batch 920 Loss:-0.150809, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:33:36,338 : batch_dur 0.777124 , bach_loss_dur 0.776851
+2024-02-02 21:33:44,289 : Batch 930 Loss:-0.142931, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:33:44,289 : batch_dur 0.790568 , bach_loss_dur 0.790285
+2024-02-02 21:33:52,320 : Batch 940 Loss:-0.126642, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:33:52,320 : batch_dur 0.822595 , bach_loss_dur 0.822327
+2024-02-02 21:34:00,301 : Batch 950 Loss:-0.129363, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:00,302 : batch_dur 0.800335 , bach_loss_dur 0.800061
+2024-02-02 21:34:08,382 : Batch 960 Loss:-0.137892, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:08,383 : batch_dur 0.806878 , bach_loss_dur 0.806605
+2024-02-02 21:34:16,336 : Batch 970 Loss:-0.135650, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:16,337 : batch_dur 0.803358 , bach_loss_dur 0.803084
+2024-02-02 21:34:24,304 : Batch 980 Loss:-0.159671, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:24,305 : batch_dur 0.802889 , bach_loss_dur 0.802614
+2024-02-02 21:34:32,312 : Batch 990 Loss:-0.143305, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:32,313 : batch_dur 0.789843 , bach_loss_dur 0.789568
+2024-02-02 21:34:40,314 : Batch 1000 Loss:-0.135339, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:40,314 : batch_dur 0.803384 , bach_loss_dur 0.803106
+2024-02-02 21:34:48,355 : Batch 1010 Loss:-0.154877, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:48,355 : batch_dur 0.803138 , bach_loss_dur 0.802855
+2024-02-02 21:34:56,365 : Batch 1020 Loss:-0.134403, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:34:56,365 : batch_dur 0.807486 , bach_loss_dur 0.807223
+2024-02-02 21:35:04,366 : Batch 1030 Loss:-0.145803, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:35:04,367 : batch_dur 0.818118 , bach_loss_dur 0.817824
+2024-02-02 21:35:12,366 : Batch 1040 Loss:-0.119557, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:35:12,367 : batch_dur 0.786148 , bach_loss_dur 0.785862
+2024-02-02 21:35:20,385 : Batch 1050 Loss:-0.142490, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:35:20,385 : batch_dur 0.795672 , bach_loss_dur 0.795408
+2024-02-02 21:35:28,384 : Batch 1060 Loss:-0.124421, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:35:28,384 : batch_dur 0.814539 , bach_loss_dur 0.814284
+2024-02-02 21:35:36,394 : Batch 1070 Loss:-0.134104, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:35:36,394 : batch_dur 0.795878 , bach_loss_dur 0.795608
+2024-02-02 21:35:44,390 : Batch 1080 Loss:-0.128318, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:35:44,391 : batch_dur 0.790686 , bach_loss_dur 0.790424
+2024-02-02 21:35:52,450 : Batch 1090 Loss:-0.150267, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:35:52,451 : batch_dur 0.801899 , bach_loss_dur 0.801606
+2024-02-02 21:36:00,462 : Batch 1100 Loss:-0.109696, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:00,462 : batch_dur 0.798700 , bach_loss_dur 0.798426
+2024-02-02 21:36:08,537 : Batch 1110 Loss:-0.128661, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:08,537 : batch_dur 0.802623 , bach_loss_dur 0.802344
+2024-02-02 21:36:16,486 : Batch 1120 Loss:-0.121512, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:16,487 : batch_dur 0.796603 , bach_loss_dur 0.796341
+2024-02-02 21:36:24,577 : Batch 1130 Loss:-0.123238, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:24,578 : batch_dur 0.820938 , bach_loss_dur 0.820661
+2024-02-02 21:36:32,685 : Batch 1140 Loss:-0.137144, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:32,685 : batch_dur 0.791813 , bach_loss_dur 0.791537
+2024-02-02 21:36:40,741 : Batch 1150 Loss:-0.125391, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:40,741 : batch_dur 0.801194 , bach_loss_dur 0.800916
+2024-02-02 21:36:48,767 : Batch 1160 Loss:-0.109968, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:48,768 : batch_dur 0.802147 , bach_loss_dur 0.801872
+2024-02-02 21:36:56,839 : Batch 1170 Loss:-0.139185, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:36:56,839 : batch_dur 0.806839 , bach_loss_dur 0.806553
+2024-02-02 21:37:04,856 : Batch 1180 Loss:-0.142797, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:37:04,856 : batch_dur 0.806054 , bach_loss_dur 0.805797
+2024-02-02 21:37:12,871 : Batch 1190 Loss:-0.122368, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:37:12,872 : batch_dur 0.792248 , bach_loss_dur 0.791987
+2024-02-02 21:37:20,928 : Batch 1200 Loss:-0.132697, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:37:20,928 : batch_dur 0.795090 , bach_loss_dur 0.794829
+2024-02-02 21:37:28,937 : Batch 1210 Loss:-0.129859, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:37:28,937 : batch_dur 0.802478 , bach_loss_dur 0.802208
+2024-02-02 21:37:36,894 : Batch 1220 Loss:-0.157262, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:37:36,894 : batch_dur 0.808415 , bach_loss_dur 0.808134
+2024-02-02 21:37:44,906 : Batch 1230 Loss:-0.128618, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:37:44,906 : batch_dur 0.789828 , bach_loss_dur 0.789557
+2024-02-02 21:37:52,953 : Batch 1240 Loss:-0.136358, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:37:52,953 : batch_dur 0.814251 , bach_loss_dur 0.813972
+2024-02-02 21:38:00,924 : Batch 1250 Loss:-0.145209, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:00,924 : batch_dur 0.798807 , bach_loss_dur 0.798529
+2024-02-02 21:38:08,951 : Batch 1260 Loss:-0.123924, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:08,952 : batch_dur 0.798552 , bach_loss_dur 0.798283
+2024-02-02 21:38:16,948 : Batch 1270 Loss:-0.110367, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:16,948 : batch_dur 0.810842 , bach_loss_dur 0.810561
+2024-02-02 21:38:24,977 : Batch 1280 Loss:-0.132934, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:24,978 : batch_dur 0.799803 , bach_loss_dur 0.799540
+2024-02-02 21:38:32,984 : Batch 1290 Loss:-0.117917, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:32,984 : batch_dur 0.795635 , bach_loss_dur 0.795355
+2024-02-02 21:38:41,050 : Batch 1300 Loss:-0.144707, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:41,050 : batch_dur 0.826170 , bach_loss_dur 0.825871
+2024-02-02 21:38:49,021 : Batch 1310 Loss:-0.151017, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:49,022 : batch_dur 0.789855 , bach_loss_dur 0.789588
+2024-02-02 21:38:56,970 : Batch 1320 Loss:-0.145467, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:38:56,970 : batch_dur 0.786883 , bach_loss_dur 0.786611
+2024-02-02 21:39:04,993 : Batch 1330 Loss:-0.119350, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:39:04,993 : batch_dur 0.814883 , bach_loss_dur 0.814609
+2024-02-02 21:39:12,962 : Batch 1340 Loss:-0.134508, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:39:12,963 : batch_dur 0.793116 , bach_loss_dur 0.792850
+2024-02-02 21:39:20,987 : Batch 1350 Loss:-0.127985, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:39:20,987 : batch_dur 0.804513 , bach_loss_dur 0.804221
+2024-02-02 21:39:29,017 : Batch 1360 Loss:-0.143891, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:39:29,018 : batch_dur 0.809137 , bach_loss_dur 0.808874
+2024-02-02 21:39:37,046 : Batch 1370 Loss:-0.116763, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:39:37,047 : batch_dur 0.806118 , bach_loss_dur 0.805840
+2024-02-02 21:39:45,088 : Batch 1380 Loss:-0.135701, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:39:45,088 : batch_dur 0.796085 , bach_loss_dur 0.795825
+2024-02-02 21:39:53,061 : Batch 1390 Loss:-0.122455, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:39:53,061 : batch_dur 0.807883 , bach_loss_dur 0.807586
+2024-02-02 21:40:01,073 : Batch 1400 Loss:-0.139105, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:01,074 : batch_dur 0.802691 , bach_loss_dur 0.802427
+2024-02-02 21:40:09,091 : Batch 1410 Loss:-0.133200, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:09,092 : batch_dur 0.797657 , bach_loss_dur 0.797381
+2024-02-02 21:40:17,100 : Batch 1420 Loss:-0.121647, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:17,101 : batch_dur 0.801074 , bach_loss_dur 0.800816
+2024-02-02 21:40:25,141 : Batch 1430 Loss:-0.118511, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:25,142 : batch_dur 0.794576 , bach_loss_dur 0.794292
+2024-02-02 21:40:33,132 : Batch 1440 Loss:-0.109788, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:33,133 : batch_dur 0.785482 , bach_loss_dur 0.785223
+2024-02-02 21:40:41,160 : Batch 1450 Loss:-0.130105, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:41,161 : batch_dur 0.832656 , bach_loss_dur 0.832358
+2024-02-02 21:40:49,158 : Batch 1460 Loss:-0.128514, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:49,158 : batch_dur 0.784209 , bach_loss_dur 0.783954
+2024-02-02 21:40:57,145 : Batch 1470 Loss:-0.142728, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:40:57,145 : batch_dur 0.800451 , bach_loss_dur 0.800181
+2024-02-02 21:41:05,139 : Batch 1480 Loss:-0.116879, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:41:05,139 : batch_dur 0.810477 , bach_loss_dur 0.810219
+2024-02-02 21:41:13,128 : Batch 1490 Loss:-0.123869, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:41:13,129 : batch_dur 0.797013 , bach_loss_dur 0.796688
+2024-02-02 21:41:21,115 : Batch 1500 Loss:-0.135022, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:41:21,115 : batch_dur 0.802617 , bach_loss_dur 0.802342
+2024-02-02 21:41:29,180 : Batch 1510 Loss:-0.105376, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:41:29,180 : batch_dur 0.812408 , bach_loss_dur 0.812109
+2024-02-02 21:41:37,132 : Batch 1520 Loss:-0.104707, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:41:37,133 : batch_dur 0.804145 , bach_loss_dur 0.803891
+2024-02-02 21:41:45,140 : Batch 1530 Loss:-0.129631, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:41:45,141 : batch_dur 0.794497 , bach_loss_dur 0.794212
+2024-02-02 21:41:53,166 : Batch 1540 Loss:-0.132912, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:41:53,167 : batch_dur 0.813516 , bach_loss_dur 0.813259
+2024-02-02 21:42:01,152 : Batch 1550 Loss:-0.136929, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:01,152 : batch_dur 0.807642 , bach_loss_dur 0.807366
+2024-02-02 21:42:09,169 : Batch 1560 Loss:-0.122091, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:09,170 : batch_dur 0.788248 , bach_loss_dur 0.787990
+2024-02-02 21:42:17,228 : Batch 1570 Loss:-0.130778, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:17,229 : batch_dur 0.805098 , bach_loss_dur 0.804820
+2024-02-02 21:42:25,205 : Batch 1580 Loss:-0.128842, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:25,206 : batch_dur 0.812260 , bach_loss_dur 0.811988
+2024-02-02 21:42:33,248 : Batch 1590 Loss:-0.114265, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:33,249 : batch_dur 0.794934 , bach_loss_dur 0.794628
+2024-02-02 21:42:41,253 : Batch 1600 Loss:-0.107749, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:41,254 : batch_dur 0.824967 , bach_loss_dur 0.824694
+2024-02-02 21:42:49,249 : Batch 1610 Loss:-0.109143, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:49,250 : batch_dur 0.803606 , bach_loss_dur 0.803326
+2024-02-02 21:42:57,282 : Batch 1620 Loss:-0.116377, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:42:57,283 : batch_dur 0.800691 , bach_loss_dur 0.800415
+2024-02-02 21:43:05,313 : Batch 1630 Loss:-0.118918, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:43:05,313 : batch_dur 0.815475 , bach_loss_dur 0.815201
+2024-02-02 21:43:13,384 : Batch 1640 Loss:-0.107739, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:43:13,385 : batch_dur 0.828156 , bach_loss_dur 0.827880
+2024-02-02 21:43:21,425 : Batch 1650 Loss:-0.123824, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:43:21,426 : batch_dur 0.804140 , bach_loss_dur 0.803873
+2024-02-02 21:43:29,436 : Batch 1660 Loss:-0.104758, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:43:29,437 : batch_dur 0.797929 , bach_loss_dur 0.797665
+2024-02-02 21:43:37,446 : Batch 1670 Loss:-0.135196, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:43:37,446 : batch_dur 0.780914 , bach_loss_dur 0.780628
+2024-02-02 21:43:45,446 : Batch 1680 Loss:-0.118018, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:43:45,446 : batch_dur 0.799489 , bach_loss_dur 0.799239
+2024-02-02 21:43:53,445 : Batch 1690 Loss:-0.133315, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:43:53,446 : batch_dur 0.805127 , bach_loss_dur 0.804850
+2024-02-02 21:44:01,494 : Batch 1700 Loss:-0.124688, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:01,494 : batch_dur 0.796599 , bach_loss_dur 0.796347
+2024-02-02 21:44:09,517 : Batch 1710 Loss:-0.134036, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:09,518 : batch_dur 0.787257 , bach_loss_dur 0.786977
+2024-02-02 21:44:17,503 : Batch 1720 Loss:-0.087494, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:17,503 : batch_dur 0.804457 , bach_loss_dur 0.804176
+2024-02-02 21:44:25,500 : Batch 1730 Loss:-0.115938, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:25,501 : batch_dur 0.804291 , bach_loss_dur 0.804020
+2024-02-02 21:44:33,475 : Batch 1740 Loss:-0.120619, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:33,476 : batch_dur 0.798696 , bach_loss_dur 0.798381
+2024-02-02 21:44:41,511 : Batch 1750 Loss:-0.122944, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:41,512 : batch_dur 0.807873 , bach_loss_dur 0.807586
+2024-02-02 21:44:49,487 : Batch 1760 Loss:-0.124897, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:49,487 : batch_dur 0.787523 , bach_loss_dur 0.787248
+2024-02-02 21:44:57,545 : Batch 1770 Loss:-0.136956, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:44:57,545 : batch_dur 0.796579 , bach_loss_dur 0.796255
+2024-02-02 21:45:05,618 : Batch 1780 Loss:-0.094252, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:45:05,618 : batch_dur 0.826930 , bach_loss_dur 0.826651
+2024-02-02 21:45:13,584 : Batch 1790 Loss:-0.128886, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:45:13,584 : batch_dur 0.796372 , bach_loss_dur 0.796083
+2024-02-02 21:45:21,631 : Batch 1800 Loss:-0.137065, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:45:21,632 : batch_dur 0.792877 , bach_loss_dur 0.792599
+2024-02-02 21:45:29,621 : Batch 1810 Loss:-0.100154, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:45:29,622 : batch_dur 0.805991 , bach_loss_dur 0.805719
+2024-02-02 21:45:37,655 : Batch 1820 Loss:-0.154727, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:45:37,656 : batch_dur 0.796286 , bach_loss_dur 0.796009
+2024-02-02 21:45:45,679 : Batch 1830 Loss:-0.126181, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:45:45,679 : batch_dur 0.780278 , bach_loss_dur 0.780032
+2024-02-02 21:45:53,687 : Batch 1840 Loss:-0.139965, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:45:53,688 : batch_dur 0.805070 , bach_loss_dur 0.804778
+2024-02-02 21:46:01,717 : Batch 1850 Loss:-0.126009, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:01,718 : batch_dur 0.811163 , bach_loss_dur 0.810898
+2024-02-02 21:46:09,696 : Batch 1860 Loss:-0.130796, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:09,697 : batch_dur 0.797010 , bach_loss_dur 0.796634
+2024-02-02 21:46:17,668 : Batch 1870 Loss:-0.132625, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:17,668 : batch_dur 0.798433 , bach_loss_dur 0.798154
+2024-02-02 21:46:25,750 : Batch 1880 Loss:-0.120419, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:25,750 : batch_dur 0.829340 , bach_loss_dur 0.829052
+2024-02-02 21:46:33,824 : Batch 1890 Loss:-0.123018, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:33,825 : batch_dur 0.799394 , bach_loss_dur 0.799139
+2024-02-02 21:46:41,892 : Batch 1900 Loss:-0.113329, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:41,894 : batch_dur 0.805762 , bach_loss_dur 0.805498
+2024-02-02 21:46:49,887 : Batch 1910 Loss:-0.142434, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:49,888 : batch_dur 0.801620 , bach_loss_dur 0.801336
+2024-02-02 21:46:57,896 : Batch 1920 Loss:-0.120029, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:46:57,896 : batch_dur 0.818030 , bach_loss_dur 0.817765
+2024-02-02 21:47:05,927 : Batch 1930 Loss:-0.116574, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:47:05,927 : batch_dur 0.812938 , bach_loss_dur 0.812653
+2024-02-02 21:47:14,067 : Batch 1940 Loss:-0.109305, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:47:14,067 : batch_dur 0.802394 , bach_loss_dur 0.802111
+2024-02-02 21:47:22,052 : Batch 1950 Loss:-0.134381, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:47:22,053 : batch_dur 0.794794 , bach_loss_dur 0.794510
+2024-02-02 21:47:30,056 : Batch 1960 Loss:-0.117945, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:47:30,056 : batch_dur 0.789788 , bach_loss_dur 0.789505
+2024-02-02 21:47:37,989 : Batch 1970 Loss:-0.114704, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:47:37,989 : batch_dur 0.785277 , bach_loss_dur 0.785005
+2024-02-02 21:47:46,002 : Batch 1980 Loss:-0.121026, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:47:46,002 : batch_dur 0.807278 , bach_loss_dur 0.807017
+2024-02-02 21:47:54,015 : Batch 1990 Loss:-0.116488, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:47:54,016 : batch_dur 0.803777 , bach_loss_dur 0.803501
+2024-02-02 21:48:01,977 : Batch 2000 Loss:-0.110280, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:01,977 : batch_dur 0.778069 , bach_loss_dur 0.777940
+2024-02-02 21:48:01,991 : >>>>>>>>----------Epoch 01 train finish---------<<<<<<<<
+2024-02-02 21:48:01,991 : Time 00h 53m 30s, Epoch 02, Training started
+2024-02-02 21:48:10,876 : Batch 10 Loss:-0.127328, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:10,877 : batch_dur 0.819178 , bach_loss_dur 0.818874
+2024-02-02 21:48:18,886 : Batch 20 Loss:-0.141701, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:18,886 : batch_dur 0.808438 , bach_loss_dur 0.808180
+2024-02-02 21:48:26,892 : Batch 30 Loss:-0.116044, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:26,893 : batch_dur 0.810962 , bach_loss_dur 0.810686
+2024-02-02 21:48:34,927 : Batch 40 Loss:-0.131621, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:34,927 : batch_dur 0.818950 , bach_loss_dur 0.818690
+2024-02-02 21:48:42,925 : Batch 50 Loss:-0.118384, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:42,926 : batch_dur 0.811256 , bach_loss_dur 0.810990
+2024-02-02 21:48:50,918 : Batch 60 Loss:-0.124265, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:50,918 : batch_dur 0.800663 , bach_loss_dur 0.800389
+2024-02-02 21:48:58,936 : Batch 70 Loss:-0.113275, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:48:58,937 : batch_dur 0.805048 , bach_loss_dur 0.804782
+2024-02-02 21:49:06,945 : Batch 80 Loss:-0.152268, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:49:06,945 : batch_dur 0.803027 , bach_loss_dur 0.802650
+2024-02-02 21:49:14,946 : Batch 90 Loss:-0.121282, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:49:14,947 : batch_dur 0.805326 , bach_loss_dur 0.805039
+2024-02-02 21:49:22,965 : Batch 100 Loss:-0.100887, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:49:22,965 : batch_dur 0.783933 , bach_loss_dur 0.783682
+2024-02-02 21:49:30,978 : Batch 110 Loss:-0.126828, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:49:30,979 : batch_dur 0.817595 , bach_loss_dur 0.817264
+2024-02-02 21:49:38,978 : Batch 120 Loss:-0.117154, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:49:38,978 : batch_dur 0.791240 , bach_loss_dur 0.790969
+2024-02-02 21:49:46,990 : Batch 130 Loss:-0.108539, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:49:46,991 : batch_dur 0.797426 , bach_loss_dur 0.797162
+2024-02-02 21:49:55,021 : Batch 140 Loss:-0.131291, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:49:55,022 : batch_dur 0.802540 , bach_loss_dur 0.802268
+2024-02-02 21:50:03,016 : Batch 150 Loss:-0.119393, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:03,017 : batch_dur 0.797024 , bach_loss_dur 0.796751
+2024-02-02 21:50:10,981 : Batch 160 Loss:-0.119618, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:10,982 : batch_dur 0.792607 , bach_loss_dur 0.792333
+2024-02-02 21:50:19,026 : Batch 170 Loss:-0.101673, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:19,027 : batch_dur 0.808720 , bach_loss_dur 0.808449
+2024-02-02 21:50:27,027 : Batch 180 Loss:-0.113524, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:27,027 : batch_dur 0.797378 , bach_loss_dur 0.797112
+2024-02-02 21:50:35,021 : Batch 190 Loss:-0.133214, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:35,022 : batch_dur 0.791004 , bach_loss_dur 0.790724
+2024-02-02 21:50:43,041 : Batch 200 Loss:-0.120550, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:43,041 : batch_dur 0.802435 , bach_loss_dur 0.802169
+2024-02-02 21:50:51,084 : Batch 210 Loss:-0.117245, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:51,085 : batch_dur 0.803502 , bach_loss_dur 0.803218
+2024-02-02 21:50:59,117 : Batch 220 Loss:-0.138054, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:50:59,117 : batch_dur 0.802602 , bach_loss_dur 0.802315
+2024-02-02 21:51:07,160 : Batch 230 Loss:-0.083224, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:51:07,161 : batch_dur 0.818479 , bach_loss_dur 0.818209
+2024-02-02 21:51:15,181 : Batch 240 Loss:-0.108528, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:51:15,181 : batch_dur 0.798516 , bach_loss_dur 0.798249
+2024-02-02 21:51:23,190 : Batch 250 Loss:-0.112467, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:51:23,190 : batch_dur 0.792900 , bach_loss_dur 0.792636
+2024-02-02 21:51:31,189 : Batch 260 Loss:-0.106687, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:51:31,189 : batch_dur 0.801788 , bach_loss_dur 0.801536
+2024-02-02 21:51:39,175 : Batch 270 Loss:-0.113183, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:51:39,176 : batch_dur 0.791881 , bach_loss_dur 0.791596
+2024-02-02 21:51:47,196 : Batch 280 Loss:-0.100974, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:51:47,197 : batch_dur 0.803796 , bach_loss_dur 0.803534
+2024-02-02 21:51:55,220 : Batch 290 Loss:-0.126022, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:51:55,220 : batch_dur 0.827988 , bach_loss_dur 0.827703
+2024-02-02 21:52:03,196 : Batch 300 Loss:-0.118718, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:03,197 : batch_dur 0.808379 , bach_loss_dur 0.808096
+2024-02-02 21:52:11,193 : Batch 310 Loss:-0.109747, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:11,194 : batch_dur 0.806866 , bach_loss_dur 0.806592
+2024-02-02 21:52:19,193 : Batch 320 Loss:-0.110215, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:19,194 : batch_dur 0.801499 , bach_loss_dur 0.801219
+2024-02-02 21:52:27,180 : Batch 330 Loss:-0.114013, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:27,181 : batch_dur 0.793214 , bach_loss_dur 0.792965
+2024-02-02 21:52:35,250 : Batch 340 Loss:-0.111922, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:35,250 : batch_dur 0.802600 , bach_loss_dur 0.802363
+2024-02-02 21:52:43,333 : Batch 350 Loss:-0.120260, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:43,334 : batch_dur 0.819836 , bach_loss_dur 0.819569
+2024-02-02 21:52:51,353 : Batch 360 Loss:-0.107725, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:51,353 : batch_dur 0.795803 , bach_loss_dur 0.795538
+2024-02-02 21:52:59,334 : Batch 370 Loss:-0.117970, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:52:59,335 : batch_dur 0.785975 , bach_loss_dur 0.785701
+2024-02-02 21:53:07,378 : Batch 380 Loss:-0.104709, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:53:07,378 : batch_dur 0.804427 , bach_loss_dur 0.804148
+2024-02-02 21:53:15,372 : Batch 390 Loss:-0.126879, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:53:15,373 : batch_dur 0.801749 , bach_loss_dur 0.801463
+2024-02-02 21:53:23,357 : Batch 400 Loss:-0.105026, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:53:23,357 : batch_dur 0.794483 , bach_loss_dur 0.794175
+2024-02-02 21:53:31,420 : Batch 410 Loss:-0.110722, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:53:31,420 : batch_dur 0.823326 , bach_loss_dur 0.823046
+2024-02-02 21:53:39,417 : Batch 420 Loss:-0.107050, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:53:39,417 : batch_dur 0.801301 , bach_loss_dur 0.801016
+2024-02-02 21:53:47,438 : Batch 430 Loss:-0.113753, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:53:47,438 : batch_dur 0.789699 , bach_loss_dur 0.789423
+2024-02-02 21:53:55,449 : Batch 440 Loss:-0.120511, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:53:55,449 : batch_dur 0.796188 , bach_loss_dur 0.795915
+2024-02-02 21:54:03,441 : Batch 450 Loss:-0.100447, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:03,441 : batch_dur 0.798359 , bach_loss_dur 0.798108
+2024-02-02 21:54:11,452 : Batch 460 Loss:-0.113417, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:11,453 : batch_dur 0.786727 , bach_loss_dur 0.786457
+2024-02-02 21:54:19,413 : Batch 470 Loss:-0.095513, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:19,414 : batch_dur 0.793974 , bach_loss_dur 0.793661
+2024-02-02 21:54:27,402 : Batch 480 Loss:-0.099567, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:27,403 : batch_dur 0.810947 , bach_loss_dur 0.810689
+2024-02-02 21:54:35,459 : Batch 490 Loss:-0.108430, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:35,460 : batch_dur 0.810378 , bach_loss_dur 0.810122
+2024-02-02 21:54:43,524 : Batch 500 Loss:-0.126466, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:43,524 : batch_dur 0.811365 , bach_loss_dur 0.811093
+2024-02-02 21:54:51,490 : Batch 510 Loss:-0.108408, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:51,491 : batch_dur 0.786766 , bach_loss_dur 0.786490
+2024-02-02 21:54:59,537 : Batch 520 Loss:-0.126669, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:54:59,538 : batch_dur 0.813273 , bach_loss_dur 0.813000
+2024-02-02 21:55:07,549 : Batch 530 Loss:-0.120475, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:55:07,550 : batch_dur 0.816594 , bach_loss_dur 0.816315
+2024-02-02 21:55:15,592 : Batch 540 Loss:-0.088252, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:55:15,593 : batch_dur 0.800465 , bach_loss_dur 0.800146
+2024-02-02 21:55:23,584 : Batch 550 Loss:-0.102099, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:55:23,584 : batch_dur 0.799856 , bach_loss_dur 0.799595
+2024-02-02 21:55:31,603 : Batch 560 Loss:-0.105991, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:55:31,604 : batch_dur 0.798739 , bach_loss_dur 0.798447
+2024-02-02 21:55:39,572 : Batch 570 Loss:-0.111822, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:55:39,573 : batch_dur 0.781851 , bach_loss_dur 0.781569
+2024-02-02 21:55:47,563 : Batch 580 Loss:-0.101628, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:55:47,564 : batch_dur 0.796359 , bach_loss_dur 0.796079
+2024-02-02 21:55:55,609 : Batch 590 Loss:-0.109475, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:55:55,610 : batch_dur 0.812274 , bach_loss_dur 0.811968
+2024-02-02 21:56:03,566 : Batch 600 Loss:-0.109368, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:03,567 : batch_dur 0.794550 , bach_loss_dur 0.794280
+2024-02-02 21:56:11,588 : Batch 610 Loss:-0.111612, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:11,588 : batch_dur 0.791935 , bach_loss_dur 0.791635
+2024-02-02 21:56:19,620 : Batch 620 Loss:-0.116042, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:19,620 : batch_dur 0.811656 , bach_loss_dur 0.811372
+2024-02-02 21:56:27,557 : Batch 630 Loss:-0.134313, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:27,557 : batch_dur 0.824323 , bach_loss_dur 0.824040
+2024-02-02 21:56:35,562 : Batch 640 Loss:-0.100949, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:35,562 : batch_dur 0.802763 , bach_loss_dur 0.802484
+2024-02-02 21:56:43,689 : Batch 650 Loss:-0.116326, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:43,689 : batch_dur 0.806694 , bach_loss_dur 0.806420
+2024-02-02 21:56:51,722 : Batch 660 Loss:-0.105510, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:51,723 : batch_dur 0.810088 , bach_loss_dur 0.809812
+2024-02-02 21:56:59,703 : Batch 670 Loss:-0.105434, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:56:59,704 : batch_dur 0.784978 , bach_loss_dur 0.784725
+2024-02-02 21:57:07,695 : Batch 680 Loss:-0.106255, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:57:07,696 : batch_dur 0.796697 , bach_loss_dur 0.796433
+2024-02-02 21:57:15,691 : Batch 690 Loss:-0.109675, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:57:15,692 : batch_dur 0.787953 , bach_loss_dur 0.787662
+2024-02-02 21:57:23,732 : Batch 700 Loss:-0.138900, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:57:23,732 : batch_dur 0.812246 , bach_loss_dur 0.811956
+2024-02-02 21:57:31,750 : Batch 710 Loss:-0.098533, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:57:31,750 : batch_dur 0.808533 , bach_loss_dur 0.808255
+2024-02-02 21:57:39,771 : Batch 720 Loss:-0.094196, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:57:39,771 : batch_dur 0.799164 , bach_loss_dur 0.798875
+2024-02-02 21:57:47,753 : Batch 730 Loss:-0.102853, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:57:47,753 : batch_dur 0.794434 , bach_loss_dur 0.794164
+2024-02-02 21:57:55,783 : Batch 740 Loss:-0.094781, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:57:55,783 : batch_dur 0.818549 , bach_loss_dur 0.818271
+2024-02-02 21:58:03,829 : Batch 750 Loss:-0.117790, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:03,829 : batch_dur 0.807116 , bach_loss_dur 0.806838
+2024-02-02 21:58:11,846 : Batch 760 Loss:-0.106666, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:11,847 : batch_dur 0.797434 , bach_loss_dur 0.797160
+2024-02-02 21:58:19,869 : Batch 770 Loss:-0.104301, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:19,870 : batch_dur 0.792449 , bach_loss_dur 0.792150
+2024-02-02 21:58:27,846 : Batch 780 Loss:-0.115364, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:27,847 : batch_dur 0.790817 , bach_loss_dur 0.790521
+2024-02-02 21:58:35,819 : Batch 790 Loss:-0.106139, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:35,820 : batch_dur 0.789446 , bach_loss_dur 0.789166
+2024-02-02 21:58:43,834 : Batch 800 Loss:-0.093486, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:43,834 : batch_dur 0.808113 , bach_loss_dur 0.807833
+2024-02-02 21:58:51,835 : Batch 810 Loss:-0.093879, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:51,835 : batch_dur 0.800329 , bach_loss_dur 0.800050
+2024-02-02 21:58:59,822 : Batch 820 Loss:-0.113939, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:58:59,823 : batch_dur 0.801931 , bach_loss_dur 0.801628
+2024-02-02 21:59:07,812 : Batch 830 Loss:-0.126315, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:59:07,813 : batch_dur 0.804723 , bach_loss_dur 0.804444
+2024-02-02 21:59:15,865 : Batch 840 Loss:-0.111718, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:59:15,866 : batch_dur 0.797420 , bach_loss_dur 0.797141
+2024-02-02 21:59:23,864 : Batch 850 Loss:-0.115886, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:59:23,865 : batch_dur 0.800775 , bach_loss_dur 0.800493
+2024-02-02 21:59:31,847 : Batch 860 Loss:-0.098728, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:59:31,847 : batch_dur 0.815882 , bach_loss_dur 0.815622
+2024-02-02 21:59:39,817 : Batch 870 Loss:-0.091664, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:59:39,818 : batch_dur 0.793301 , bach_loss_dur 0.793020
+2024-02-02 21:59:47,821 : Batch 880 Loss:-0.101905, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:59:47,821 : batch_dur 0.794231 , bach_loss_dur 0.793993
+2024-02-02 21:59:55,796 : Batch 890 Loss:-0.121434, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 21:59:55,796 : batch_dur 0.811281 , bach_loss_dur 0.811042
+2024-02-02 22:00:03,781 : Batch 900 Loss:-0.116973, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:03,781 : batch_dur 0.810142 , bach_loss_dur 0.809799
+2024-02-02 22:00:11,791 : Batch 910 Loss:-0.092420, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:11,792 : batch_dur 0.791736 , bach_loss_dur 0.791463
+2024-02-02 22:00:19,817 : Batch 920 Loss:-0.131489, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:19,818 : batch_dur 0.811865 , bach_loss_dur 0.811585
+2024-02-02 22:00:27,795 : Batch 930 Loss:-0.093682, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:27,811 : batch_dur 0.789228 , bach_loss_dur 0.788948
+2024-02-02 22:00:35,824 : Batch 940 Loss:-0.105297, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:35,824 : batch_dur 0.811734 , bach_loss_dur 0.811466
+2024-02-02 22:00:43,861 : Batch 950 Loss:-0.107357, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:43,861 : batch_dur 0.808141 , bach_loss_dur 0.807871
+2024-02-02 22:00:51,903 : Batch 960 Loss:-0.095255, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:51,904 : batch_dur 0.798992 , bach_loss_dur 0.798725
+2024-02-02 22:00:59,949 : Batch 970 Loss:-0.123392, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:00:59,950 : batch_dur 0.813447 , bach_loss_dur 0.813170
+2024-02-02 22:01:07,998 : Batch 980 Loss:-0.095772, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:01:07,999 : batch_dur 0.801006 , bach_loss_dur 0.800726
+2024-02-02 22:01:15,964 : Batch 990 Loss:-0.112371, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:01:15,964 : batch_dur 0.787693 , bach_loss_dur 0.787416
+2024-02-02 22:01:24,039 : Batch 1000 Loss:-0.095385, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:01:24,039 : batch_dur 0.805134 , bach_loss_dur 0.804830
+2024-02-02 22:01:32,120 : Batch 1010 Loss:-0.107332, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:01:32,121 : batch_dur 0.807097 , bach_loss_dur 0.806811
+2024-02-02 22:01:40,115 : Batch 1020 Loss:-0.092753, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:01:40,116 : batch_dur 0.804821 , bach_loss_dur 0.804530
+2024-02-02 22:01:48,121 : Batch 1030 Loss:-0.107499, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:01:48,121 : batch_dur 0.802608 , bach_loss_dur 0.802330
+2024-02-02 22:01:56,103 : Batch 1040 Loss:-0.107895, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:01:56,103 : batch_dur 0.804985 , bach_loss_dur 0.804711
+2024-02-02 22:02:04,082 : Batch 1050 Loss:-0.106171, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:02:04,083 : batch_dur 0.799311 , bach_loss_dur 0.799034
+2024-02-02 22:02:12,077 : Batch 1060 Loss:-0.092206, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:02:12,077 : batch_dur 0.814415 , bach_loss_dur 0.814129
+2024-02-02 22:02:20,101 : Batch 1070 Loss:-0.107101, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:02:20,102 : batch_dur 0.807981 , bach_loss_dur 0.807718
+2024-02-02 22:02:28,078 : Batch 1080 Loss:-0.099264, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:02:28,079 : batch_dur 0.787337 , bach_loss_dur 0.787001
+2024-02-02 22:02:36,087 : Batch 1090 Loss:-0.092407, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:02:36,087 : batch_dur 0.805828 , bach_loss_dur 0.805548
+2024-02-02 22:02:44,141 : Batch 1100 Loss:-0.096635, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:02:44,141 : batch_dur 0.814802 , bach_loss_dur 0.814530
+2024-02-02 22:02:52,155 : Batch 1110 Loss:-0.109074, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:02:52,155 : batch_dur 0.787210 , bach_loss_dur 0.786925
+2024-02-02 22:03:00,185 : Batch 1120 Loss:-0.092620, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:00,186 : batch_dur 0.806992 , bach_loss_dur 0.806726
+2024-02-02 22:03:08,178 : Batch 1130 Loss:-0.098766, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:08,179 : batch_dur 0.801043 , bach_loss_dur 0.800749
+2024-02-02 22:03:16,231 : Batch 1140 Loss:-0.105530, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:16,232 : batch_dur 0.803737 , bach_loss_dur 0.803463
+2024-02-02 22:03:24,204 : Batch 1150 Loss:-0.091303, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:24,205 : batch_dur 0.789087 , bach_loss_dur 0.788816
+2024-02-02 22:03:32,280 : Batch 1160 Loss:-0.098320, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:32,280 : batch_dur 0.817279 , bach_loss_dur 0.816992
+2024-02-02 22:03:40,279 : Batch 1170 Loss:-0.115970, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:40,280 : batch_dur 0.801445 , bach_loss_dur 0.801170
+2024-02-02 22:03:48,303 : Batch 1180 Loss:-0.108996, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:48,303 : batch_dur 0.790576 , bach_loss_dur 0.790297
+2024-02-02 22:03:56,271 : Batch 1190 Loss:-0.103244, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:03:56,272 : batch_dur 0.812495 , bach_loss_dur 0.812223
+2024-02-02 22:04:04,307 : Batch 1200 Loss:-0.100069, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:04:04,308 : batch_dur 0.792785 , bach_loss_dur 0.792509
+2024-02-02 22:04:12,319 : Batch 1210 Loss:-0.100731, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:04:12,319 : batch_dur 0.794495 , bach_loss_dur 0.794220
+2024-02-02 22:04:20,355 : Batch 1220 Loss:-0.121661, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:04:20,356 : batch_dur 0.812057 , bach_loss_dur 0.811775
+2024-02-02 22:04:28,373 : Batch 1230 Loss:-0.092358, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:04:28,373 : batch_dur 0.808982 , bach_loss_dur 0.808714
+2024-02-02 22:04:36,361 : Batch 1240 Loss:-0.108028, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:04:36,361 : batch_dur 0.796717 , bach_loss_dur 0.796425
+2024-02-02 22:04:44,373 : Batch 1250 Loss:-0.097215, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:04:44,373 : batch_dur 0.793592 , bach_loss_dur 0.793319
+2024-02-02 22:04:52,387 : Batch 1260 Loss:-0.112510, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:04:52,388 : batch_dur 0.807924 , bach_loss_dur 0.807629
+2024-02-02 22:05:00,487 : Batch 1270 Loss:-0.111550, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:00,488 : batch_dur 0.804172 , bach_loss_dur 0.803894
+2024-02-02 22:05:08,484 : Batch 1280 Loss:-0.093467, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:08,484 : batch_dur 0.812081 , bach_loss_dur 0.811815
+2024-02-02 22:05:16,497 : Batch 1290 Loss:-0.114984, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:16,498 : batch_dur 0.804859 , bach_loss_dur 0.804576
+2024-02-02 22:05:24,504 : Batch 1300 Loss:-0.122394, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:24,505 : batch_dur 0.813258 , bach_loss_dur 0.812969
+2024-02-02 22:05:32,514 : Batch 1310 Loss:-0.084056, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:32,514 : batch_dur 0.803604 , bach_loss_dur 0.803330
+2024-02-02 22:05:40,541 : Batch 1320 Loss:-0.106213, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:40,542 : batch_dur 0.809211 , bach_loss_dur 0.808932
+2024-02-02 22:05:48,556 : Batch 1330 Loss:-0.091890, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:48,556 : batch_dur 0.788005 , bach_loss_dur 0.787736
+2024-02-02 22:05:56,562 : Batch 1340 Loss:-0.113150, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:05:56,563 : batch_dur 0.808635 , bach_loss_dur 0.808363
+2024-02-02 22:06:04,571 : Batch 1350 Loss:-0.078841, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:06:04,571 : batch_dur 0.805770 , bach_loss_dur 0.805485
+2024-02-02 22:06:12,589 : Batch 1360 Loss:-0.092447, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:06:12,590 : batch_dur 0.808515 , bach_loss_dur 0.808230
+2024-02-02 22:06:20,606 : Batch 1370 Loss:-0.112558, rot_loss:0.000000, size_loss:0.000000, trans_loss:0.000000,
+2024-02-02 22:06:20,606 : batch_dur 0.794381 , bach_loss_dur 0.794090
